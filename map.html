@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Flood Archive - Interactive Map</title>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <!-- MarkerCluster CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+    
+    <style>
+        body, html { height: 100%; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+        #map { height: 100%; width: 100%; }
+        .info-panel {
+            position: absolute;
+            top: 20px;
+            left: 50px;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            max-width: 300px;
+        }
+        .loading-overlay {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(255,255,255,0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 2000;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="loading" class="loading-overlay">Loading Flood Data...</div>
+    
+    <div class="info-panel">
+        <h2 style="margin-top:0">Global Flood Archive</h2>
+        <p>Visualizing historical flood events using data from <code>floodarchive.xlsx</code>.</p>
+        <div id="stats">Found 0 events.</div>
+    </div>
+
+    <div id="map"></div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <!-- SheetJS for XLSX -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <!-- MarkerCluster JS -->
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+
+    <script>
+        const map = L.map('map').setView([20, 0], 2);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; OpenStreetMap contributors, Humanitarian OpenStreetMap Team'
+        }).addTo(map);
+
+        const markers = L.markerClusterGroup();
+
+        // reflectMap: Mapping internal keys to Excel column headers
+        const reflectMap = {
+            country: 'Country',
+            cause: 'MainCause',
+            began: 'Began',
+            ended: 'Ended',
+            fatalities: 'Dead',
+            displaced: 'Displaced',
+            lat: 'lat',
+            long: 'long',
+            severity: 'Severity'
+        };
+
+        function getRadius(fatalities) {
+            return Math.min(Math.max(fatalities / 10, 5), 50);
+        }
+
+        fetch('floodarchive.xlsx')
+            .then(res => res.arrayBuffer())
+            .then(buffer => {
+                const workbook = XLSX.read(buffer, { type: 'array' });
+                const data = XLSX.utils.sheet_to_json(workbook.Sheets[workbook.SheetNames[0]]);
+                
+                document.getElementById('stats').innerText = `Visualizing ${data.length} flood events.`;
+                
+                data.forEach(row => {
+                    const lat = row[reflectMap.lat];
+                    const lon = row[reflectMap.long];
+                    
+                    if (lat && lon) {
+                        const deaths = row[reflectMap.fatalities] || 0;
+                        const cause = row[reflectMap.cause] || 'Unknown';
+                        const country = row[reflectMap.country] || 'Unknown';
+                        
+                        const marker = L.circleMarker([lat, lon], {
+                            radius: getRadius(deaths),
+                            fillColor: deaths > 100 ? "#ff4444" : "#3388ff",
+                            color: "#000",
+                            weight: 1,
+                            opacity: 1,
+                            fillOpacity: 0.8
+                        });
+
+                        marker.bindPopup(`
+                            <div style="min-width: 200px">
+                                <h3 style="margin:0 0 10px 0">${country}</h3>
+                                <b>Main Cause:</b> ${cause}<br>
+                                <b>Fatalities:</b> ${deaths}<br>
+                                <b>Displaced:</b> ${row[reflectMap.displaced] || 0}<br>
+                                <b>Timeline:</b> ${row[reflectMap.began]} to ${row[reflectMap.ended]}<br>
+                                <b>Severity:</b> ${row[reflectMap.severity] || 'N/A'}
+                            </div>
+                        `);
+                        
+                        markers.addLayer(marker);
+                    }
+                });
+
+                map.addLayer(markers);
+                document.getElementById('loading').style.display = 'none';
+            })
+            .catch(err => {
+                console.error(err);
+                document.getElementById('loading').innerText = "Error loading map data.";
+            });
+    </script>
+</body>
+</html>
