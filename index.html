@@ -46,15 +46,15 @@
      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
      crossorigin=""></script>
     
-    <!-- PapaParse for CSV -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
-
+    <!-- SheetJS for XLSX -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    
     <!-- MarkerCluster JS -->
     <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 
     <script>
         // Set view to Bordeaux city center
-        var map = L.map('map').setView([44.8378, -0.5792], 6);
+        var map = L.map('map').setView([44.8378, -0.5792], 2);
 
         // Add OpenStreetMap tile layer
         L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -62,34 +62,54 @@
             attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
         }).addTo(map);
 
-        // Add a primary marker for Bordeaux
-        L.marker([44.8378, -0.5792]).addTo(map)
-            .bindPopup('Bordeaux, France')
-            .openPopup();
-
         // Create a MarkerClusterGroup to hold all flood points
         var markers = L.markerClusterGroup();
 
-        // Fetch the Global Flood Archive CSV (hosted version)
-        var csvUrl = 'https://raw.githubusercontent.com/sparklabnyc/usa_floods_mortality_2024/main/01_data/1a_exposure_data/FloodArchive.csv';
+        // Define a reflectMap to map internal fields to Excel headers
+        const reflectMap = {
+            country: 'Country',
+            cause: 'MainCause',
+            began: 'Began',
+            ended: 'Ended',
+            fatalities: 'Dead',
+            displaced: 'Displaced',
+            lat: 'lat',
+            long: 'long'
+        };
 
-        Papa.parse(csvUrl, {
-            download: true,
-            header: true,
-            dynamicTyping: true,
-            complete: function(results) {
-                console.log("Found " + results.data.length + " flood events.");
+        // Fetch and process the local floodarchive.xlsx
+        fetch('floodarchive.xlsx')
+            .then(response => response.arrayBuffer())
+            .then(data => {
+                var workbook = XLSX.read(data, { type: 'array' });
+                var firstSheetName = workbook.SheetNames[0];
+                var worksheet = workbook.Sheets[firstSheetName];
+                var results = XLSX.utils.sheet_to_json(worksheet);
+
+                console.log("Found " + results.length + " flood events.");
                 
-                results.data.forEach(function(row) {
-                    if (row.lat && row.long) {
-                        var marker = L.marker([row.lat, row.long])
+                results.forEach(function(row) {
+                    // Use the reflectMap to extract values from the Excel row
+                    const item = {
+                        country: row[reflectMap.country],
+                        cause: row[reflectMap.cause] || 'N/A',
+                        began: row[reflectMap.began],
+                        ended: row[reflectMap.ended],
+                        fatalities: row[reflectMap.fatalities] || 0,
+                        displaced: row[reflectMap.displaced] || 0,
+                        lat: row[reflectMap.lat],
+                        long: row[reflectMap.long]
+                    };
+
+                    if (item.lat && item.long) {
+                        var marker = L.marker([item.lat, item.long])
                             .bindPopup(`
-                                <b>Location:</b> ${row.Country}<br>
-                                <b>Cause:</b> ${row.MainCause || 'N/A'}<br>
-                                <b>Began:</b> ${row.Began}<br>
-                                <b>Ended:</b> ${row.Ended}<br>
-                                <b>Fatalities:</b> ${row.Dead || 0}<br>
-                                <b>Displaced:</b> ${row.Displaced || 0}
+                                <b>Location:</b> ${item.country}<br>
+                                <b>Cause:</b> ${item.cause}<br>
+                                <b>Began:</b> ${item.began}<br>
+                                <b>Ended:</b> ${item.ended}<br>
+                                <b>Fatalities:</b> ${item.fatalities}<br>
+                                <b>Displaced:</b> ${item.displaced}
                             `);
                         markers.addLayer(marker);
                     }
@@ -97,12 +117,11 @@
 
                 map.addLayer(markers);
                 document.getElementById('loading').style.display = 'none';
-            },
-            error: function(err) {
-                console.error("Error loading CSV:", err);
+            })
+            .catch(err => {
+                console.error("Error loading Excel:", err);
                 document.getElementById('loading').innerText = "Error loading data.";
-            }
-        });
+            });
     </script>
 </body>
 </html>
