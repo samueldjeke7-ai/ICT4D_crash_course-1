@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivory Coast Flood Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        body, html { height: 100%; margin: 0; }
+        #map { height: 100%; width: 100%; }
+        .legend {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            z-index: 1000;
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <div class="legend">
+        <strong>Ivory Coast Floods</strong><br>
+        Markers colored in Orange/Green
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+
+    <script>
+        // Zoom specifically into Ivory Coast / West Africa
+        const map = L.map('map').setView([7.5399, -5.5471], 6);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap'
+        }).addTo(map);
+
+        fetch('floodarchive.xlsx')
+            .then(res => res.arrayBuffer())
+            .then(buffer => {
+                const workbook = XLSX.read(buffer, { type: 'array' });
+                const data = XLSX.utils.sheet_to_json(workbook.Sheets[workbook.SheetNames[0]]);
+                
+                data.forEach(row => {
+                    // Filter for Ivory Coast in the browser
+                    if (row.Country && row.Country.trim() === 'Ivory Coast' && row.lat && row.long) {
+                        L.circleMarker([row.lat, row.long], {
+                            radius: 10,
+                            fillColor: "#ff8800", // Ivory Coast Orange
+                            color: "#006b3f",     // Ivory Coast Green
+                            weight: 2,
+                            opacity: 1,
+                            fillOpacity: 0.7
+                        }).bindPopup(`
+                            <b>Location:</b> ${row.Country}<br>
+                            <b>Cause:</b> ${row.MainCause || 'N/A'}<br>
+                            <b>Deaths:</b> ${row.Dead || 0}
+                        `).addTo(map);
+                    }
+                });
+            });
+    </script>
+</body>
+</html>
