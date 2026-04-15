@@ -3,69 +3,184 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ivory Coast Flood Map</title>
+    <title>Ivory Coast | Health Risk Map</title>
+    
+    <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <!-- Google Fonts for a modern look -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    
     <style>
-        body, html { height: 100%; margin: 0; }
+        :root {
+            --risk-color: #ef4444;
+            --safe-color: #3b82f6;
+            --flood-color: #f59e0b;
+            --bg-glass: rgba(255, 255, 255, 0.9);
+        }
+
+        body, html { 
+            height: 100%; 
+            margin: 0; 
+            font-family: 'Inter', sans-serif;
+            background: #f3f4f6;
+        }
+
         #map { height: 100%; width: 100%; }
+
+        /* Modern Floating Header */
+        .map-header {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1000;
+            background: var(--bg-glass);
+            padding: 12px 24px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            text-align: center;
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255,255,255,0.3);
+            min-width: 300px;
+        }
+
+        .map-header h1 { 
+            margin: 0; 
+            font-size: 18px; 
+            font-weight: 800; 
+            color: #1f2937;
+            letter-spacing: -0.025em;
+        }
+        
+        .map-header p { 
+            margin: 4px 0 0; 
+            font-size: 12px; 
+            color: #6b7280; 
+            font-weight: 600;
+        }
+
+        /* Styled Legend */
         .legend {
             position: absolute;
-            bottom: 20px;
+            bottom: 30px;
             left: 20px;
             z-index: 1000;
-            background: white;
-            padding: 10px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            background: var(--bg-glass);
+            padding: 16px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255,255,255,0.3);
+            font-size: 13px;
+            color: #374151;
         }
-        /* Style for the layer control */
-        .leaflet-control-layers {
-            font-size: 14px;
+
+        .legend-title { font-weight: 800; margin-bottom: 10px; display: block; text-transform: uppercase; font-size: 11px; color: #9ca3af; }
+        .legend-item { display: flex; align-items: center; margin-bottom: 8px; font-weight: 600; }
+        .legend-icon { width: 14px; height: 14px; border-radius: 50%; margin-right: 10px; display: inline-block; }
+
+        /* Custom Marker Icons */
+        .health-icon-inner {
+            width: 24px;
+            height: 24px;
+            background: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
             font-weight: bold;
+            transition: all 0.2s ease;
+        }
+
+        .health-icon-inner:hover {
+            transform: scale(1.2);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+
+        /* Popup Styling */
+        .leaflet-popup-content-wrapper { border-radius: 12px; padding: 4px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
+        .leaflet-popup-tip { box-shadow: none; }
+        .popup-container h3 { margin: 0 0 8px; font-size: 16px; font-weight: 800; color: #111827; }
+        .popup-badge { 
+            display: inline-block; 
+            padding: 4px 8px; 
+            border-radius: 6px; 
+            font-size: 10px; 
+            font-weight: 800; 
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+        .badge-risk { background: #fee2e2; color: #ef4444; }
+        .badge-safe { background: #dbeafe; color: #3b82f6; }
+
+        /* Layer Control Customization */
+        .leaflet-control-layers { 
+            border-radius: 12px !important; 
+            border: none !important; 
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15) !important; 
+            padding: 10px !important;
         }
     </style>
 </head>
 <body>
-    <div id="map"></div>
-    <div class="legend">
-        <strong>Map Legend</strong><br>
-        <span style="color: #ff8800;">●</span> Flood Event<br>
-        <span style="color: #e74c3c;">✚</span> At-Risk Site (< 5km)<br>
-        <span style="color: #95a5a6;">✚</span> Safe Health Site
+
+    <div class="map-header">
+        <h1>Ivory Coast Health System Risk Analysis</h1>
+        <p>Identifying clinics & hospitals within 5km of flood events</p>
     </div>
 
+    <div id="map"></div>
+
+    <div class="legend">
+        <span class="legend-title">Map Key</span>
+        <div class="legend-item"><span class="legend-icon" style="background: var(--flood-color); outline: 4px solid rgba(245, 158, 11, 0.2);"></span> Flood Danger Zone</div>
+        <div class="legend-item"><span style="color: var(--risk-color); font-size: 18px; margin-right: 8px;">✚</span> At-Risk Facility</div>
+        <div class="legend-item"><span style="color: #9ca3af; font-size: 18px; margin-right: 8px;">✚</span> Safe Facility</div>
+    </div>
+
+    <!-- Scripts -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 
     <script>
-        // Set view to Abidjan/Ivory Coast
-        const map = L.map('map').setView([5.3, -4.0], 10);
+        const map = L.map('map', {
+            zoomControl: false // Move zoom control later
+        }).setView([5.35, -3.98], 11); // Focused on Abidjan
 
-        L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
-            attribution: '© OpenStreetMap contributors'
+        L.control.zoom({ position: 'bottomright' }).addTo(map);
+
+        // Modern Tile Layer (CartoDB Voyager)
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+            attribution: '© CartoDB | © OpenStreetMap'
         }).addTo(map);
 
-        // Define Layer Groups
         const floodLayer = L.layerGroup().addTo(map);
         const allHealthLayer = L.layerGroup();
         const atRiskHealthLayer = L.layerGroup().addTo(map);
+
+        // Helper for custom icons
+        function createHealthIcon(color, size = 20) {
+            return L.divIcon({
+                html: `<div class="health-icon-inner" style="color: ${color}; font-size: ${size}px;">✚</div>`,
+                className: 'custom-icon',
+                iconSize: [size+4, size+4],
+                iconAnchor: [size/2+2, size/2+2]
+            });
+        }
 
         // 1. Load All Health Sites
         fetch('ivory_coast_health_sites.json')
             .then(res => res.json())
             .then(data => {
                 data.elements.forEach(site => {
-                    const icon = L.divIcon({
-                        html: '<div style="color: #95a5a6; font-size: 18px;">✚</div>',
-                        className: 'custom-div-icon',
-                        iconSize: [20, 20],
-                        iconAnchor: [10, 10]
-                    });
-
-                    L.marker([site.lat, site.lon], { icon: icon })
+                    L.marker([site.lat, site.lon], { icon: createHealthIcon('#9ca3af', 16) })
                         .bindPopup(`
-                            <b>${site.tags.name || 'Unnamed Health Site'}</b><br>
-                            Type: ${site.tags.amenity}
+                            <div class="popup-container">
+                                <span class="popup-badge badge-safe">Secure Location</span>
+                                <h3>${site.tags.name || 'Unnamed Health Site'}</h3>
+                                <b>Category:</b> ${site.tags.amenity}
+                            </div>
                         `)
                         .addTo(allHealthLayer);
                 });
@@ -76,19 +191,15 @@
             .then(res => res.json())
             .then(data => {
                 data.elements.forEach(site => {
-                    const icon = L.divIcon({
-                        html: '<div style="color: #e74c3c; font-size: 22px; font-weight: bold;">✚</div>',
-                        className: 'custom-div-icon',
-                        iconSize: [24, 24],
-                        iconAnchor: [12, 12]
-                    });
-
-                    L.marker([site.lat, site.lon], { icon: icon })
+                    L.marker([site.lat, site.lon], { icon: createHealthIcon('#ef4444', 24) })
                         .bindPopup(`
-                            <div style="min-width: 150px">
-                                <h3 style="margin:0 0 5px 0">${site.tags.name || 'Unnamed Health Site'}</h3>
+                            <div class="popup-container">
+                                <span class="popup-badge badge-risk">High Risk Zone</span>
+                                <h3>${site.tags.name || 'Unnamed Health Site'}</h3>
                                 <b>Type:</b> ${site.tags.amenity}<br>
-                                <b style="color: #e74c3c;">Risk:</b> Within ${site.risk_info.closest_flood_dist_km} km of a flood event
+                                <p style="margin: 8px 0 0; color: #ef4444; font-size: 12px; font-weight: 800;">
+                                    Distance to flood: ${site.risk_info.closest_flood_dist_km} km
+                                </p>
                             </div>
                         `)
                         .addTo(atRiskHealthLayer);
@@ -106,38 +217,34 @@
                     if (row.Country && row.Country.trim() === 'Ivory Coast' && row.lat && row.long) {
                         L.circle([row.lat, row.long], {
                             radius: 5000,
-                            fillColor: "#ff8800", 
-                            color: "#ff8800",
+                            fillColor: "#f59e0b", 
+                            color: "#f59e0b",
                             weight: 1,
-                            opacity: 0.3,
-                            fillOpacity: 0.2
+                            opacity: 0.2,
+                            fillOpacity: 0.15
                         }).addTo(floodLayer);
 
                         L.circleMarker([row.lat, row.long], {
-                            radius: 8,
-                            fillColor: "#ff8800",
-                            color: "#000",
-                            weight: 1,
+                            radius: 6,
+                            fillColor: "#f59e0b",
+                            color: "#fff",
+                            weight: 2,
                             opacity: 1,
-                            fillOpacity: 0.9
-                        }).bindPopup(`
-                            <b>Flood Event</b><br>
-                            <b>Began:</b> ${row.Began}<br>
-                            <b>Cause:</b> ${row.MainCause || 'N/A'}
-                        `).addTo(floodLayer);
+                            fillOpacity: 1
+                        }).bindPopup(`<b>Historical Flood Event</b><br>Started: ${row.Began}`)
+                        .addTo(floodLayer);
                     }
                 });
             });
 
-        // Add Layer Control
-        const baseLayers = {};
+        // Layer Control
         const overlays = {
-            "<span style='color: #ff8800;'>Flood Danger Zones</span>": floodLayer,
-            "<span style='color: #e74c3c; font-weight: bold;'>At-Risk Sites (Only)</span>": atRiskHealthLayer,
-            "<span style='color: #95a5a6;'>All Health Sites</span>": allHealthLayer
+            "⚠️ Flood Danger Zones": floodLayer,
+            "🚨 At-Risk Sites": atRiskHealthLayer,
+            "🏥 All Health Facilities": allHealthLayer
         };
 
-        L.control.layers(baseLayers, overlays, {collapsed: false}).addTo(map);
+        L.control.layers(null, overlays, { collapsed: false, position: 'topright' }).addTo(map);
     </script>
 </body>
 </html>
