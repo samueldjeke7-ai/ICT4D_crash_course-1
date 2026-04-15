@@ -1,0 +1,5 @@
+ID,GlideNumber,Country,OtherCountry,long,lat,Area,Began,Ended,Validation,Dead,Displaced,MainCause,Severity
+1750,0,Ivory Coast ,0,-4.04727,5.36056,1828.17,2001-07-11,2001-07-11,News,2,0,Heavy rain,1.0
+3829,,Ivory Coast,,-3.23691,5.96536,14448.97,2011-06-15,2011-06-21,News,0,500,Heavy Rain,1.0
+4650,,Ivory Coast,,-4.23322,6.11834,58302.36,2018-07-13,2018-07-17,FloodList,2,200,Torrential Rain,1.5
+4804,,Ivory Coast,,-4.01053,5.82018,34664.28,2019-10-04,2019-10-12,FloodList,2,120,Heavy Rain,1.5
