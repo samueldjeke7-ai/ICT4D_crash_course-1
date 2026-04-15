@@ -1,0 +1,415 @@
+{
+  "elements": [
+    {
+      "type": "node",
+      "id": 2382090539,
+      "lat": 5.3672232,
+      "lon": -4.0232747,
+      "tags": {
+        "amenity": "clinic",
+        "emergency": "no",
+        "healthcare": "clinic",
+        "name": "Maternit\u00e9 Urbaine de Williamsville"
+      },
+      "risk_info": {
+        "is_at_risk": true,
+        "closest_flood_dist_km": 2.758
+      }
+    },
+    {
+      "type": "node",
+      "id": 3784306923,
+      "lat": 5.3261325,
+      "lon": -4.021561,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clinique externat saint paul"
+      },
+      "risk_info": {
+        "is_at_risk": true,
+        "closest_flood_dist_km": 4.77
+      }
+    },
+    {
+      "type": "node",
+      "id": 3930702861,
+      "lat": 5.3224605,
+      "lon": -4.0544932,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Polyclinique de Yopougon"
+      },
+      "risk_info": {
+        "is_at_risk": true,
+        "closest_flood_dist_km": 4.311
+      }
+    },
+    {
+      "type": "node",
+      "id": 4398951991,
+      "lat": 5.3473102,
+      "lon": -4.0095689,
+      "tags": {
+        "addr:street": "Rue du Lyc\u00e9e Technique",
+        "amenity": "clinic",
+        "email": "contact@cliniquelaprovidence.net",
+        "healthcare": "clinic",
+        "name": "Clinique la Providence",
+        "name:fr": "Clinique la Providence",
+        "phone": "+22522449586",
+        "website": "https://www.cliniquelaprovidence.net/"
+      },
+      "risk_info": {
+        "is_at_risk": true,
+        "closest_flood_dist_km": 4.426
+      }
+    },
+    {
+      "type": "node",
+      "id": 4463359547,
+      "lat": 5.3330999,
+      "lon": -4.0620708,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clinique m\u00e9dicale Les Oliviers"
+      },
+      "risk_info": {
+        "is_at_risk": true,
+        "closest_flood_dist_km": 3.465
+      }
+    },
+    {
+      "type": "node",
+      "id": 4485187391,
+      "lat": 5.3530094,
+      "lon": -4.0347417,
+      "tags": {
+        "addr:street": "Boulevard Felix Houphou\u00ebt Boigny",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Maternit\u00e9 d\u2019Attecoub\u00e9"
+      },
+      "risk_info": {
+        "is_at_risk": true,
+        "closest_flood_dist_km": 1.621
+      }
+    },
+    {
+      "type": "node",
+      "id": 4754152406,
+      "lat": 5.3468227,
+      "lon": -4.0886864,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clinique m\u00e9dicale Vie"
+      },
+      "risk_info": {
+        "is_at_risk": true,
+        "closest_flood_dist_km": 4.833
+      }
+    },
+    {
+      "type": "node",
+      "id": 4930944421,
+      "lat": 5.3554649,
+      "lon": -4.0805634,
+      "tags": {
+        "addr:street": "Route de Dabou",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clinique Medico-Churigical Le banco",
+        "name:fr": "Clinique Medico-Churigical Le banco"
+      },
+      "risk_info": {
+        "is_at_risk": true,
+        "closest_flood_dist_km": 3.729
+      }
+    },
+    {
+      "type": "node",
+      "id": 5195756922,
+      "lat": 5.3401418,
+      "lon": -4.0089224,
+      "tags": {
+        "addr:street": "Rue des Cannas",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Polyclinique Danga"
+      },
+      "risk_info": {
+        "is_at_risk": true,
+        "closest_flood_dist_km": 4.814
+      }
+    },
+    {
+      "type": "node",
+      "id": 5921917902,
+      "lat": 5.3514417,
+      "lon": -4.0600035,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clinique M\u00e9dicale St Jean Baptiste"
+      },
+      "risk_info": {
+        "is_at_risk": true,
+        "closest_flood_dist_km": 1.736
+      }
+    },
+    {
+      "type": "node",
+      "id": 5926282070,
+      "lat": 5.3408537,
+      "lon": -4.0723433,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clinique Du Lavage"
+      },
+      "risk_info": {
+        "is_at_risk": true,
+        "closest_flood_dist_km": 3.537
+      }
+    },
+    {
+      "type": "node",
+      "id": 5926805818,
+      "lat": 5.3383186,
+      "lon": -4.08392,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clinique M\u00e9dicale Les Orchid\u00e9es"
+      },
+      "risk_info": {
+        "is_at_risk": true,
+        "closest_flood_dist_km": 4.752
+      }
+    },
+    {
+      "type": "node",
+      "id": 5926954794,
+      "lat": 5.3465293,
+      "lon": -4.0674459,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clinique Chinoise"
+      },
+      "risk_info": {
+        "is_at_risk": true,
+        "closest_flood_dist_km": 2.725
+      }
+    },
+    {
+      "type": "node",
+      "id": 5927195504,
+      "lat": 5.3427685,
+      "lon": -4.0800758,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clinique AIBEF"
+      },
+      "risk_info": {
+        "is_at_risk": true,
+        "closest_flood_dist_km": 4.136
+      }
+    },
+    {
+      "type": "node",
+      "id": 5934479363,
+      "lat": 5.3375435,
+      "lon": -4.0658145,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clinique Medicale Jean et Marie"
+      },
+      "risk_info": {
+        "is_at_risk": true,
+        "closest_flood_dist_km": 3.281
+      }
+    },
+    {
+      "type": "node",
+      "id": 5936663486,
+      "lat": 5.3316235,
+      "lon": -4.0558031,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clinique Chinoise"
+      },
+      "risk_info": {
+        "is_at_risk": true,
+        "closest_flood_dist_km": 3.353
+      }
+    },
+    {
+      "type": "node",
+      "id": 5936663492,
+      "lat": 5.3313364,
+      "lon": -4.0562068,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Hopital Toit Rouge"
+      },
+      "risk_info": {
+        "is_at_risk": true,
+        "closest_flood_dist_km": 3.397
+      }
+    },
+    {
+      "type": "node",
+      "id": 6480218096,
+      "lat": 5.3477456,
+      "lon": -4.0730826,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clinique m\u00e9dicale oasis sant\u00e9"
+      },
+      "risk_info": {
+        "is_at_risk": true,
+        "closest_flood_dist_km": 3.193
+      }
+    },
+    {
+      "type": "node",
+      "id": 6648294671,
+      "lat": 5.3518643,
+      "lon": -4.061718,
+      "tags": {
+        "addr:suburb": "Yopougon",
+        "amenity": "clinic",
+        "contact:mobile": "+22556168422",
+        "contact:phone": "+22523518444",
+        "description": "Centre de r\u00e9\u00e9ducation",
+        "healthcare": "clinic",
+        "name": "Clinique m\u00e9dicale Les oliviers",
+        "opening_hours": "Mo-Fr 08:00-12:00, 14:00-17:00",
+        "operator:type": "private",
+        "project:geoloc_unicef": "yes",
+        "project:geoloc_unicef:id": "ABJ_215"
+      },
+      "risk_info": {
+        "is_at_risk": true,
+        "closest_flood_dist_km": 1.869
+      }
+    },
+    {
+      "type": "node",
+      "id": 8554764935,
+      "lat": 5.3722306,
+      "lon": -4.0783305,
+      "tags": {
+        "alt_name": "Emy espace m\u00e9dical Yopougon",
+        "amenity": "hospital",
+        "fax": "+225 27 23 4 08144",
+        "healthcare": "hospital",
+        "name": "EMY polyclinique",
+        "phone": "+225 27 23 4 08140;+225 07 49 99 4999"
+      },
+      "risk_info": {
+        "is_at_risk": true,
+        "closest_flood_dist_km": 3.675
+      }
+    },
+    {
+      "type": "node",
+      "id": 8753437929,
+      "lat": 5.340644,
+      "lon": -4.0286169,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Infirmerie Priv\u00e9s Le Temps"
+      },
+      "risk_info": {
+        "is_at_risk": true,
+        "closest_flood_dist_km": 3.028
+      }
+    },
+    {
+      "type": "node",
+      "id": 8754078002,
+      "lat": 5.3401653,
+      "lon": -4.0274059,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Infirmerie"
+      },
+      "risk_info": {
+        "is_at_risk": true,
+        "closest_flood_dist_km": 3.159
+      }
+    },
+    {
+      "type": "node",
+      "id": 8754115590,
+      "lat": 5.3422998,
+      "lon": -4.0289646,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clinique Chinoise"
+      },
+      "risk_info": {
+        "is_at_risk": true,
+        "closest_flood_dist_km": 2.869
+      }
+    },
+    {
+      "type": "node",
+      "id": 8754118017,
+      "lat": 5.340849,
+      "lon": -4.027534,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Nouvelle Clinique d'Adjame"
+      },
+      "risk_info": {
+        "is_at_risk": true,
+        "closest_flood_dist_km": 3.095
+      }
+    },
+    {
+      "type": "node",
+      "id": 10735971305,
+      "lat": 5.3280423,
+      "lon": -4.0266821,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Formation sanitaire urbaine Edmond Basque du plateau"
+      },
+      "risk_info": {
+        "is_at_risk": true,
+        "closest_flood_dist_km": 4.274
+      }
+    },
+    {
+      "type": "node",
+      "id": 11155843832,
+      "lat": 5.3799473,
+      "lon": -4.0077429,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Centre anti tuberculeux HMA"
+      },
+      "risk_info": {
+        "is_at_risk": true,
+        "closest_flood_dist_km": 4.878
+      }
+    }
+  ]
+}

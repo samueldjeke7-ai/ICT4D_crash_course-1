@@ -1,0 +1,5556 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-15T13:17:54Z",
+    "timestamp_areas_base": "2026-04-15T00:53:14Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1625055493,
+  "lat": 5.2201832,
+  "lon": -3.7364461,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Siloé",
+    "source": "bing"
+  }
+},
+{
+  "type": "node",
+  "id": 2382090539,
+  "lat": 5.3672232,
+  "lon": -4.0232747,
+  "tags": {
+    "amenity": "clinic",
+    "emergency": "no",
+    "healthcare": "clinic",
+    "name": "Maternité Urbaine de Williamsville"
+  }
+},
+{
+  "type": "node",
+  "id": 2461273777,
+  "lat": 5.3114387,
+  "lon": -3.9734755,
+  "tags": {
+    "addr:city": "Marcory",
+    "addr:country": "CI",
+    "addr:state": "Abidjan",
+    "addr:street": "Rue E 7",
+    "amenity": "clinic",
+    "emergency": "no",
+    "healthcare": "clinic",
+    "name": "Clinique médicale Koko"
+  }
+},
+{
+  "type": "node",
+  "id": 2493737349,
+  "lat": 5.2939016,
+  "lon": -3.9558489,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Axe optique"
+  }
+},
+{
+  "type": "node",
+  "id": 2604141815,
+  "lat": 5.2981314,
+  "lon": -3.9707658,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Liring"
+  }
+},
+{
+  "type": "node",
+  "id": 2899056622,
+  "lat": 5.4109278,
+  "lon": -4.0068720,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique centrale d'Abobo"
+  }
+},
+{
+  "type": "node",
+  "id": 3015620991,
+  "lat": 5.3055632,
+  "lon": -4.0116529,
+  "tags": {
+    "addr:city": "Treichville",
+    "addr:country": "CI",
+    "addr:state": "Abidjan",
+    "addr:street": "Rue 12",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Harmonie"
+  }
+},
+{
+  "type": "node",
+  "id": 3015620992,
+  "lat": 5.3070421,
+  "lon": -4.0138728,
+  "tags": {
+    "amenity": "clinic",
+    "email": "mascot@yahoo.fr",
+    "healthcare": "clinic",
+    "name": "Clinique La Mascotte",
+    "phone": "21242417"
+  }
+},
+{
+  "type": "node",
+  "id": 3144241936,
+  "lat": 5.3569692,
+  "lon": -3.9795361,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Médicale Sainte-Philomène"
+  }
+},
+{
+  "type": "node",
+  "id": 3152313936,
+  "lat": 5.2113916,
+  "lon": -3.7371528,
+  "tags": {
+    "amenity": "clinic",
+    "emergency": "yes",
+    "healthcare": "clinic",
+    "name": "Centre Médical M'Baphouet"
+  }
+},
+{
+  "type": "node",
+  "id": 3198578950,
+  "lat": 5.3078008,
+  "lon": -3.9747036,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique"
+  }
+},
+{
+  "type": "node",
+  "id": 3282137848,
+  "lat": 5.4162938,
+  "lon": -4.0318186,
+  "tags": {
+    "addr:city": "Abobo",
+    "addr:postcode": "13 BP 173 Abidjan 13",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "healthcare:speciality": "general;dentist;gynaecology;ophthalmology;oreille;nez_&_gorge;vaccination",
+    "name": "Formation Sanitaire Urbaine à Base Communautaire Abobo Sagbe",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "node",
+  "id": 3284931349,
+  "lat": 5.4203761,
+  "lon": -4.0150830,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Fatima"
+  }
+},
+{
+  "type": "node",
+  "id": 3296328683,
+  "lat": 5.2409567,
+  "lon": -3.6329284,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centre de Santé Yaou"
+  }
+},
+{
+  "type": "node",
+  "id": 3296490790,
+  "lat": 5.2444359,
+  "lon": -3.6295055,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Kassidy"
+  }
+},
+{
+  "type": "node",
+  "id": 3509960569,
+  "lat": 5.4735005,
+  "lon": -3.8007998,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Dispensaire Rural"
+  }
+},
+{
+  "type": "node",
+  "id": 3654402847,
+  "lat": 5.2079501,
+  "lon": -3.7325402,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Tortues"
+  }
+},
+{
+  "type": "node",
+  "id": 3750010235,
+  "lat": 5.2195746,
+  "lon": -3.7436921,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Esther de Grand-Bassam"
+  }
+},
+{
+  "type": "node",
+  "id": 3784306923,
+  "lat": 5.3261325,
+  "lon": -4.0215610,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique externat saint paul"
+  }
+},
+{
+  "type": "node",
+  "id": 3784811221,
+  "lat": 5.3564204,
+  "lon": -4.0010603,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Polyclinique Saint-Jacques"
+  }
+},
+{
+  "type": "node",
+  "id": 3916605797,
+  "lat": 5.1963170,
+  "lon": -3.7397185,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Dispensaire Medico-Scolaire",
+    "source": "bing;survey"
+  }
+},
+{
+  "type": "node",
+  "id": 3929741005,
+  "lat": 5.2077096,
+  "lon": -3.7384967,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Cabinet Médical La Rose"
+  }
+},
+{
+  "type": "node",
+  "id": 3930469666,
+  "lat": 5.3832122,
+  "lon": -3.9859791,
+  "tags": {
+    "addr:city": "Cocody",
+    "addr:country": "CI",
+    "addr:state": "Abidjan",
+    "addr:suburb": "Deux Plateaux",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Médicale la Colombe"
+  }
+},
+{
+  "type": "node",
+  "id": 3930702861,
+  "lat": 5.3224605,
+  "lon": -4.0544932,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Polyclinique de Yopougon"
+  }
+},
+{
+  "type": "node",
+  "id": 3992174028,
+  "lat": 5.2855209,
+  "lon": -3.9768553,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Médicale Rima"
+  }
+},
+{
+  "type": "node",
+  "id": 3995475494,
+  "lat": 5.3016554,
+  "lon": -3.9733355,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique johanna"
+  }
+},
+{
+  "type": "node",
+  "id": 4019888798,
+  "lat": 5.4042560,
+  "lon": -4.0198537,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centre de Santé El Rapha"
+  }
+},
+{
+  "type": "node",
+  "id": 4068614774,
+  "lat": 5.3194706,
+  "lon": -6.5311018,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Dispensaire de Gnintitoigui 1"
+  }
+},
+{
+  "type": "node",
+  "id": 4262572490,
+  "lat": 7.4482881,
+  "lon": -7.3983700,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 4344227839,
+  "lat": 5.3488038,
+  "lon": -3.9958218,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Béatitudes"
+  }
+},
+{
+  "type": "node",
+  "id": 4398951991,
+  "lat": 5.3473102,
+  "lon": -4.0095689,
+  "tags": {
+    "addr:street": "Rue du Lycée Technique",
+    "amenity": "clinic",
+    "email": "contact@cliniquelaprovidence.net",
+    "healthcare": "clinic",
+    "name": "Clinique la Providence",
+    "name:fr": "Clinique la Providence",
+    "phone": "+22522449586",
+    "website": "https://www.cliniquelaprovidence.net/"
+  }
+},
+{
+  "type": "node",
+  "id": 4437956790,
+  "lat": 6.1133700,
+  "lon": -5.9348493,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Keita",
+    "name:fr": "Clinique Keita"
+  }
+},
+{
+  "type": "node",
+  "id": 4442516135,
+  "lat": 6.1423458,
+  "lon": -5.9523963,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique le Ghery"
+  }
+},
+{
+  "type": "node",
+  "id": 4463359547,
+  "lat": 5.3330999,
+  "lon": -4.0620708,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique médicale Les Oliviers"
+  }
+},
+{
+  "type": "node",
+  "id": 4464475990,
+  "lat": 6.7394845,
+  "lon": -7.3452342,
+  "tags": {
+    "addr:city": "Duékoué",
+    "addr:country": "CI",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Cabinet Médical Christal",
+    "operator:type": "private",
+    "projet:ogpci": "yes",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 4476728916,
+  "lat": 6.7377186,
+  "lon": -7.3510028,
+  "tags": {
+    "addr:city": "Duékoué",
+    "addr:country": "CI",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Médicale Djama Soutra",
+    "operator:type": "private",
+    "projet:ogpci": "yes",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 4476795866,
+  "lat": 6.7391915,
+  "lon": -7.3541786,
+  "tags": {
+    "addr:city": "Duékoué",
+    "addr:country": "CI",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Association des Volontaire pour la Protection de l'Enfance",
+    "office": "ngo",
+    "operator:type": "ngo",
+    "projet:ogpci": "yes",
+    "short_name": "AVPE",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 4476869758,
+  "lat": 6.7367969,
+  "lon": -7.3433767,
+  "tags": {
+    "addr:city": "Duékoué",
+    "addr:country": "CI",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique AIBEF",
+    "operator:type": "private",
+    "projet:ogpci": "yes",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 4477215072,
+  "lat": 6.7454871,
+  "lon": -7.3450812,
+  "tags": {
+    "addr:city": "Duékoué",
+    "addr:country": "CI",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Sainte Anne-Marie",
+    "operator:type": "private",
+    "projet:ogpci": "yes",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 4484033445,
+  "lat": 6.7391807,
+  "lon": -7.3426426,
+  "tags": {
+    "addr:city": "Duékoué",
+    "addr:country": "CI",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Dispensaire Soeurs Salésiennes",
+    "operator:type": "private",
+    "projet:ogpci": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4485187391,
+  "lat": 5.3530094,
+  "lon": -4.0347417,
+  "tags": {
+    "addr:street": "Boulevard Felix Houphouët Boigny",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Maternité d’Attecoubé"
+  }
+},
+{
+  "type": "node",
+  "id": 4485222096,
+  "lat": 5.4388123,
+  "lon": -4.0399959,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique médicale Les grâces"
+  }
+},
+{
+  "type": "node",
+  "id": 4547977891,
+  "lat": 5.3581610,
+  "lon": -3.9999150,
+  "tags": {
+    "addr:city": "Cocody",
+    "addr:street": "Rue J22",
+    "amenity": "clinic",
+    "fax": "+225 2722416359",
+    "healthcare": "clinic",
+    "name": "Clinique Médicale Latrille",
+    "opening_hours": "24/7",
+    "phone": "+225 2722416333;+225 2722416355;+225 0777238645",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4551159691,
+  "lat": 6.8384767,
+  "lon": -5.2553333,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Emmanuel"
+  }
+},
+{
+  "type": "node",
+  "id": 4565106891,
+  "lat": 5.3632444,
+  "lon": -3.9991093,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Poly Clinic Deux Plateaux",
+    "name:fr": "poly clinic 2 platx"
+  }
+},
+{
+  "type": "node",
+  "id": 4714184389,
+  "lat": 6.8801786,
+  "lon": -5.5814027,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "internet_access": "wlan",
+    "name": "Centre Sante Rurale BOZI SATIMACI",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "node",
+  "id": 4745947711,
+  "lat": 6.8103541,
+  "lon": -5.2692395,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Aibef"
+  }
+},
+{
+  "type": "node",
+  "id": 4754152406,
+  "lat": 5.3468227,
+  "lon": -4.0886864,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique médicale Vie"
+  }
+},
+{
+  "type": "node",
+  "id": 4794214321,
+  "lat": 5.3643061,
+  "lon": -4.0005138,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "La Nouvelle Clinique Remah",
+    "name:fr": "La Nouvelle Clinique Remah",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "node",
+  "id": 4893698922,
+  "lat": 5.3186864,
+  "lon": -4.0133739,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique La Rochelle"
+  }
+},
+{
+  "type": "node",
+  "id": 4930944421,
+  "lat": 5.3554649,
+  "lon": -4.0805634,
+  "tags": {
+    "addr:street": "Route de Dabou",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Medico-Churigical Le banco",
+    "name:fr": "Clinique Medico-Churigical Le banco"
+  }
+},
+{
+  "type": "node",
+  "id": 4940322222,
+  "lat": 5.3830334,
+  "lon": -3.3901957,
+  "tags": {
+    "amenity": "hospital",
+    "fixme": "confirm location",
+    "healthcare": "hospital",
+    "name": "District sanitaire Aboisso",
+    "name:fr": "District sanitaire Aboisso"
+  }
+},
+{
+  "type": "node",
+  "id": 4964932648,
+  "lat": 5.4694624,
+  "lon": -4.1906548,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Maternité",
+    "operator": "infirmier, sage femme"
+  }
+},
+{
+  "type": "node",
+  "id": 5037866222,
+  "lat": 5.2401663,
+  "lon": -3.8960646,
+  "tags": {
+    "addr:suburb": "Port Bouet",
+    "alt_name": "Centre de Santé Urbain Communautaire de Gonzagueville",
+    "amenity": "clinic",
+    "contact:phone": "+22502105922",
+    "description": "Accouchement Assistance sociale, soutien social Conseil et dépistage volontaire (CDV)",
+    "healthcare": "clinic",
+    "name": "Centre de Santé Urbain de Gonzagueville",
+    "opening_hours": "24/7",
+    "operator:type": "public",
+    "project:geoloc_unicef": "yes",
+    "project:geoloc_unicef:id": "ABJ_164",
+    "short_name": "CSU de Gonzagueville"
+  }
+},
+{
+  "type": "node",
+  "id": 5125512322,
+  "lat": 5.3646257,
+  "lon": -3.9798057,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Polyclinique Sacré-Cœur",
+    "name:fr": "Polyclinique Sacré-Cœur",
+    "phone": "+225 22 00 88 88"
+  }
+},
+{
+  "type": "node",
+  "id": 5176106775,
+  "lat": 7.7036889,
+  "lon": -5.0566359,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centre de Santé Chrétien de Bouaké Zone",
+    "project:anr_cohesion_bouake": "yes",
+    "source": "survey",
+    "source:date": "2018-04-12"
+  }
+},
+{
+  "type": "node",
+  "id": 5194377204,
+  "lat": 5.8041504,
+  "lon": -6.7850443,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic"
+  }
+},
+{
+  "type": "node",
+  "id": 5195756922,
+  "lat": 5.3401418,
+  "lon": -4.0089224,
+  "tags": {
+    "addr:street": "Rue des Cannas",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Polyclinique Danga"
+  }
+},
+{
+  "type": "node",
+  "id": 5209368530,
+  "lat": 7.5935394,
+  "lon": -5.1660847,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centre de Santé Rural",
+    "name:fr": "Centre de Santé Rural"
+  }
+},
+{
+  "type": "node",
+  "id": 5209368549,
+  "lat": 4.7478351,
+  "lon": -6.6305969,
+  "tags": {
+    "addr:suburb": "Cité",
+    "amenity": "clinic",
+    "contact:email": "empspy@aviso.ci",
+    "contact:mobile": "+22507202470",
+    "contact:phone": "+22534718606",
+    "description": "Accouchement Consultation Consultation prénatale Contraceptifs Dépistage VIH, IST Distribution de Préservatifs",
+    "healthcare": "clinic",
+    "name": "Centre Médical Pasteur",
+    "opening_hours": "24/7",
+    "operator:type": "private",
+    "project:geoloc_unicef": "yes",
+    "project:geoloc_unicef:id": "SP_069"
+  }
+},
+{
+  "type": "node",
+  "id": 5209369724,
+  "lat": 4.7393455,
+  "lon": -6.6319906,
+  "tags": {
+    "addr:suburb": "Cité",
+    "amenity": "clinic",
+    "contact:mobile": "3730355",
+    "contact:phone": "+22534714852",
+    "description": "Accouchement Conseil et dépistage volontaire (CDV) Consultation Consultation prénatale Contraceptifs Dépistage VIH, IST",
+    "healthcare": "clinic",
+    "name": "Clinique le rocher",
+    "name:fr": "La clinique Les rochers",
+    "opening_hours": "24/7",
+    "operator:type": "private",
+    "project:geoloc_unicef": "yes",
+    "project:geoloc_unicef:id": "SP_063"
+  }
+},
+{
+  "type": "node",
+  "id": 5247312253,
+  "lat": 7.6824622,
+  "lon": -5.0382887,
+  "tags": {
+    "amenity": "clinic",
+    "health_facility:type": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Médico-Chirurgicale Nanan",
+    "operator:type": "private",
+    "project:anr_cohesion_bouake": "yes",
+    "short_name": "CMENA",
+    "source": "Bing; DigitalGlobe Standard Imagery; survey",
+    "source:date": "2018-04-13"
+  }
+},
+{
+  "type": "node",
+  "id": 5250512646,
+  "lat": 7.7345418,
+  "lon": -5.0303851,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "birthing_centre",
+    "name": "Maternité de Kotiakoffikro",
+    "operator:type": "community",
+    "project:anr_cohesion_bouake": "yes",
+    "source": "Imagerie Standard DigitalGlobe; bing; survey",
+    "source:date": "2018-04-16"
+  }
+},
+{
+  "type": "node",
+  "id": 5250615826,
+  "lat": 7.6945307,
+  "lon": -5.0276287,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Polyclinique Sainte Fraternité",
+    "project:anr_cohesion_bouake": "yes",
+    "source": "Bing; DigitalGlobe Standard Imagery; survey",
+    "source:date": "2018-04-06"
+  }
+},
+{
+  "type": "node",
+  "id": 5251565622,
+  "lat": 4.7478120,
+  "lon": -6.6296078,
+  "tags": {
+    "addr:suburb": "Cité",
+    "amenity": "clinic",
+    "contact:email": "petrussiere@gmail.com",
+    "contact:mobile": "+22534711076",
+    "contact:phone": "+22547818121",
+    "description": "Accouchement Conseil et dépistage volontaire (CDV) Consultation Consultation prénatale Dépistage VIH, IST Ecoute",
+    "healthcare": "clinic",
+    "name": "Clinique Centrale de San-Pédro",
+    "opening_hours": "24/7",
+    "operator:type": "private",
+    "project:geoloc_unicef": "yes",
+    "project:geoloc_unicef:id": "SP_087"
+  }
+},
+{
+  "type": "node",
+  "id": 5251565921,
+  "lat": 4.7444960,
+  "lon": -6.6354060,
+  "tags": {
+    "addr:suburb": "Cité",
+    "amenity": "clinic",
+    "contact:email": "cmnd2012@yahoo.fr",
+    "contact:mobile": "5697798",
+    "contact:phone": "+22534713535",
+    "description": "Accouchement Dépistage VIH, IST Consultation prénatale Consultation gynéco-obstétriques Ecoute soutien psy-social",
+    "healthcare": "clinic",
+    "name": "Clinique Notre Dame de San Pedro",
+    "opening_hours": "24/7",
+    "operator:type": "private",
+    "project:geoloc_unicef": "yes",
+    "project:geoloc_unicef:id": "SP_037"
+  }
+},
+{
+  "type": "node",
+  "id": 5265741630,
+  "lat": 7.7072971,
+  "lon": -5.0265992,
+  "tags": {
+    "amenity": "clinic",
+    "health_facility:type": "clinic",
+    "healthcare": "clinic",
+    "name": "Nouvelle Polyclinique du Centre",
+    "operator:type": "private",
+    "project:anr_cohesion_bouake": "yes",
+    "source": "Bing;Standard DigitalGlobe;Survey",
+    "source:date": "2018-05-03"
+  }
+},
+{
+  "type": "node",
+  "id": 5286053221,
+  "lat": 5.0156713,
+  "lon": -6.5542266,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "CSU de Gabiadji"
+  }
+},
+{
+  "type": "node",
+  "id": 5342862126,
+  "lat": 5.4236783,
+  "lon": -4.0142969,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Centrale d'Abobo Centre"
+  }
+},
+{
+  "type": "node",
+  "id": 5383119036,
+  "lat": 5.3197331,
+  "lon": -4.0942472,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique médicale Sainte Thérèse d’Avila"
+  }
+},
+{
+  "type": "node",
+  "id": 5469322821,
+  "lat": 5.5409266,
+  "lon": -3.9682524,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Maternité d'Attiekoi"
+  }
+},
+{
+  "type": "node",
+  "id": 5545187921,
+  "lat": 5.3205083,
+  "lon": -4.0128494,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique HMS Plateau"
+  }
+},
+{
+  "type": "node",
+  "id": 5546120853,
+  "lat": 7.7129650,
+  "lon": -5.0434897,
+  "tags": {
+    "amenity": "clinic",
+    "health_facility:type": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique La Sentinelle Santé",
+    "operator:type": "private",
+    "project:anr_cohesion_bouake": "yes",
+    "source": "survey;Bing",
+    "source:date": "2018-04-11"
+  }
+},
+{
+  "type": "node",
+  "id": 5546618619,
+  "lat": 7.7133898,
+  "lon": -5.0311160,
+  "tags": {
+    "amenity": "clinic",
+    "health_facility:CI": "centre_médico-scolaire",
+    "health_facility:type": "health_center",
+    "healthcare": "clinic",
+    "name": "Service Scolaire et Universitaire Bouaké 3",
+    "note": "bâtiment R+1",
+    "operator:type": "public",
+    "project:anr_cohesion_bouake": "yes",
+    "source": "survey",
+    "source:date": "2018-04-10"
+  }
+},
+{
+  "type": "node",
+  "id": 5548273238,
+  "lat": 7.7139388,
+  "lon": -5.0260077,
+  "tags": {
+    "amenity": "clinic",
+    "health_facility:type": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Cem Chic",
+    "operator:type": "private",
+    "project:anr_cohesion_bouake": "yes",
+    "source": "survey;Bing",
+    "source:date": "2018-04-12"
+  }
+},
+{
+  "type": "node",
+  "id": 5552326645,
+  "lat": 7.6857709,
+  "lon": -5.0497855,
+  "tags": {
+    "amenity": "clinic",
+    "health_facility:type": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Médicale Reine Pokou",
+    "operator:type": "private",
+    "project:anr_cohesion_bouake": "yes",
+    "source": "survey",
+    "source:date": "2018-04-13"
+  }
+},
+{
+  "type": "node",
+  "id": 5556226410,
+  "lat": 7.7270547,
+  "lon": -5.0498673,
+  "tags": {
+    "amenity": "clinic",
+    "health_facility:CI": "centre_médico-scolaire",
+    "health_facility:type": "health_center",
+    "healthcare": "clinic",
+    "name": "Centre Médical Berthel",
+    "operator:type": "public",
+    "project:anr_cohesion_bouake": "yes",
+    "source": "survey",
+    "source:date": "2018-04-14"
+  }
+},
+{
+  "type": "node",
+  "id": 5558977435,
+  "lat": 7.7232819,
+  "lon": -4.9939835,
+  "tags": {
+    "amenity": "clinic",
+    "health_facility:type": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Santé pour Tous",
+    "operator:type": "private",
+    "project:anr_cohesion_bouake": "yes",
+    "source": "Bing;Imagerie Standard DigitalGlobe",
+    "source:date": "2018-04-16"
+  }
+},
+{
+  "type": "node",
+  "id": 5558977459,
+  "lat": 7.7151121,
+  "lon": -5.0004537,
+  "tags": {
+    "amenity": "clinic",
+    "disused": "yes",
+    "health_facility:type": "clinic",
+    "healthcare": "clinic",
+    "name": "Polyclinique Nouvelle de Belleville",
+    "operator:type": "private",
+    "project:anr_cohesion_bouake": "yes",
+    "source": "Bing;Imagerie Standard DigitalGlobe",
+    "source:date": "2018-04-16"
+  }
+},
+{
+  "type": "node",
+  "id": 5564047384,
+  "lat": 7.6872825,
+  "lon": -5.0110933,
+  "tags": {
+    "amenity": "clinic",
+    "health_facility:type": "clinic",
+    "healthcare": "clinic",
+    "name": "Polyclinique Kennedy",
+    "operator:type": "community",
+    "project:anr_cohesion_bouake": "yes",
+    "source": "survey",
+    "source:date": "2018-04-18"
+  }
+},
+{
+  "type": "node",
+  "id": 5564047385,
+  "lat": 7.6872618,
+  "lon": -5.0118868,
+  "tags": {
+    "amenity": "clinic",
+    "health_facility:type": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Médico-Chirurgicale Saint-Martin",
+    "operator:type": "community",
+    "project:anr_cohesion_bouake": "yes",
+    "source": "survey",
+    "source:date": "2018-04-18"
+  }
+},
+{
+  "type": "node",
+  "id": 5564412218,
+  "lat": 7.7234068,
+  "lon": -5.0646544,
+  "tags": {
+    "amenity": "clinic",
+    "denomination": "catholic",
+    "health_facility:type": "clinic",
+    "healthcare": "clinic",
+    "name": "Centre Jean-Baptiste Vatelot",
+    "operator:type": "religious",
+    "project:anr_cohesion_bouake": "yes",
+    "religion": "christian",
+    "source": "survey",
+    "source:date": "2018-04-30"
+  }
+},
+{
+  "type": "node",
+  "id": 5568547889,
+  "lat": 7.6806208,
+  "lon": -5.0246009,
+  "tags": {
+    "amenity": "clinic",
+    "health_facility:CI": "centre_médico-scolaire",
+    "health_facility:type": "health_center",
+    "healthcare": "clinic",
+    "name": "Service de Santé Scolaire et Universitaire II Nimbo",
+    "operator:type": "public",
+    "project:anr_cohesion_bouake": "yes",
+    "short_name": "SSSU II",
+    "source": "survey",
+    "source:date": "2018-04-20"
+  }
+},
+{
+  "type": "node",
+  "id": 5568733140,
+  "lat": 7.6793801,
+  "lon": -5.0780694,
+  "tags": {
+    "amenity": "clinic",
+    "health_facility:CI": "centre_médico_scolaire",
+    "health_facility:type": "health_center",
+    "healthcare": "clinic",
+    "name": "Centre de Santé Universitaire Campus 2",
+    "note": "Information donnée par l'infirmier",
+    "operator:type": "public",
+    "project:anr_cohesion_bouake": "yes",
+    "source": "survey",
+    "source:date": "2018-04-19"
+  }
+},
+{
+  "type": "node",
+  "id": 5568761848,
+  "lat": 7.6814959,
+  "lon": -5.0259925,
+  "tags": {
+    "amenity": "clinic",
+    "health_facility:type": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Médicale Sainte Madeleine",
+    "operator:type": "private",
+    "project:anr_cohesion_bouake": "yes",
+    "source": "Bing;DigitalGlobe Standard Imagery;survey",
+    "source:date": "2018-04-20"
+  }
+},
+{
+  "type": "node",
+  "id": 5568801023,
+  "lat": 7.6807590,
+  "lon": -5.0332832,
+  "tags": {
+    "amenity": "clinic",
+    "health_facility:type": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Médicale Étoile du Commerce",
+    "operator:type": "community",
+    "project:anr_cohesion_bouake": "yes",
+    "short_name": "CMEC",
+    "source": "survey",
+    "source:date": "03-05-2018"
+  }
+},
+{
+  "type": "node",
+  "id": 5568817604,
+  "lat": 7.6824070,
+  "lon": -5.0234556,
+  "tags": {
+    "amenity": "clinic",
+    "health_facility:type": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Médicale Bouaké",
+    "operator:type": "private",
+    "project:anr_cohesion_bouake": "yes",
+    "source": "survey",
+    "source:date": "2018-04-20"
+  }
+},
+{
+  "type": "node",
+  "id": 5569112148,
+  "lat": 7.6781879,
+  "lon": -5.0171095,
+  "tags": {
+    "amenity": "clinic",
+    "health_facility:type": "clinic",
+    "healthcare": "clinic",
+    "name": "Aosi Action",
+    "operator:type": "ngo",
+    "project:anr_cohesion_bouake": "yes",
+    "source": "Imagerie Premium DigitalGlobe, survey",
+    "source:date": "2018-04-20"
+  }
+},
+{
+  "type": "node",
+  "id": 5596160883,
+  "lat": 7.6829046,
+  "lon": -5.0352237,
+  "tags": {
+    "amenity": "clinic",
+    "health_facility:type": "clinic",
+    "healthcare": "clinic",
+    "name": "Institut National d'Hygiène Publique",
+    "operator:type": "community",
+    "project:anr_cohesion_bouake": "yes",
+    "short_name": "INHP",
+    "source": "survey",
+    "source:date": "2018-05-03"
+  }
+},
+{
+  "type": "node",
+  "id": 5665061921,
+  "lat": 7.6858244,
+  "lon": -5.0675957,
+  "tags": {
+    "amenity": "clinic",
+    "health_facility:CI": "centre_médico_scolaire",
+    "health_facility:type": "health_center",
+    "healthcare": "clinic",
+    "name": "Centre de Santé Universitaire Campus 1",
+    "note": "Information donnée par l'infirmier",
+    "operator:type": "public",
+    "project:anr_cohesion_bouake": "yes",
+    "source": "survey",
+    "source:date": "2018-04-19"
+  }
+},
+{
+  "type": "node",
+  "id": 5665070121,
+  "lat": 7.6853629,
+  "lon": -5.0678073,
+  "tags": {
+    "amenity": "clinic",
+    "health_facility:CI": "centre_médico_scolaire",
+    "health_facility:type": "health_center",
+    "healthcare": "clinic",
+    "name": "Centre de Santé Universitaire Campus 1",
+    "note": "Information donnée par l'infirmier",
+    "operator:type": "public",
+    "project:anr_cohesion_bouake": "yes",
+    "source": "survey",
+    "source:date": "2018-04-19"
+  }
+},
+{
+  "type": "node",
+  "id": 5806800034,
+  "lat": 7.6825253,
+  "lon": -5.0388649,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "CEMENA",
+    "operator": "Clinique"
+  }
+},
+{
+  "type": "node",
+  "id": 5840661637,
+  "lat": 4.7496353,
+  "lon": -6.6277009,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "infirmerie Medical"
+  }
+},
+{
+  "type": "node",
+  "id": 5840671815,
+  "lat": 4.7458597,
+  "lon": -6.6393283,
+  "tags": {
+    "addr:suburb": "Lac",
+    "amenity": "clinic",
+    "contact:phone": "+22534710094",
+    "description": "Echographie,radiologie,scanner,laboratoire,cardiologie",
+    "healthcare": "clinic",
+    "name": "Clinique la rosette",
+    "opening_hours": "Mo-Sa 08:00-17:00",
+    "operator:type": "private",
+    "project:geoloc_unicef": "yes",
+    "project:geoloc_unicef:id": "SP_039"
+  }
+},
+{
+  "type": "node",
+  "id": 5842351247,
+  "lat": 4.7709375,
+  "lon": -6.6465548,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centre Médical Chinois"
+  }
+},
+{
+  "type": "node",
+  "id": 5842351248,
+  "lat": 4.7708927,
+  "lon": -6.6465287,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centre de Santé Les Archanges"
+  }
+},
+{
+  "type": "node",
+  "id": 5843243298,
+  "lat": 4.7675402,
+  "lon": -6.6683404,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique"
+  }
+},
+{
+  "type": "node",
+  "id": 5844502960,
+  "lat": 4.7816344,
+  "lon": -6.6478396,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Infirmerie Saint Chekinael"
+  }
+},
+{
+  "type": "node",
+  "id": 5844502965,
+  "lat": 4.7814875,
+  "lon": -6.6474514,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Chinoise"
+  }
+},
+{
+  "type": "node",
+  "id": 5844577917,
+  "lat": 4.7721657,
+  "lon": -6.6463872,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Seweke 2"
+  }
+},
+{
+  "type": "node",
+  "id": 5844939514,
+  "lat": 4.7723982,
+  "lon": -6.6483491,
+  "tags": {
+    "addr:suburb": "BARDOT 3",
+    "amenity": "clinic",
+    "contact:phone": "+22507914408",
+    "description": "Conseil et dépistage volontaire (CDV) Conseil, informations sur la santé sexuelle et reproductive",
+    "healthcare": "clinic",
+    "name": "Association Ivoirienne pour le Bien Être Familial",
+    "opening_hours": "Mo-Sa 07:30-12:30,13:30-16:30",
+    "operator:type": "public",
+    "project:geoloc_unicef": "yes",
+    "project:geoloc_unicef:id": "SP_005",
+    "short_name": "AIBEF"
+  }
+},
+{
+  "type": "node",
+  "id": 5844947577,
+  "lat": 4.7794620,
+  "lon": -6.6504796,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centre Medicale Pierre et Marie Curie"
+  }
+},
+{
+  "type": "node",
+  "id": 5848266622,
+  "lat": 4.7782605,
+  "lon": -6.6522344,
+  "tags": {
+    "addr:suburb": "Bardot au dessus de la pharmacie Bardot 2000",
+    "amenity": "clinic",
+    "contact:email": "djatouben88@gmail.com",
+    "contact:mobile": "+22568875569",
+    "contact:phone": "+22534718161",
+    "description": "Conseil et dépistage volontaire (CDV) Conseil, informations sur la santé sexuelle et reproductive Consultation",
+    "health_facility:type": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique médicale chirurgicale l'Emmanuel",
+    "opening_hours": "24/7",
+    "operator:type": "private",
+    "project:geoloc_unicef": "yes",
+    "project:geoloc_unicef:id": "SP_052"
+  }
+},
+{
+  "type": "node",
+  "id": 5848733584,
+  "lat": 4.7446261,
+  "lon": -6.6360399,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centre Medical d'orphtamologie Iris Chez Dr. Assa"
+  }
+},
+{
+  "type": "node",
+  "id": 5849775385,
+  "lat": 4.7661349,
+  "lon": -6.6749319,
+  "tags": {
+    "addr:suburb": "JB",
+    "amenity": "clinic",
+    "contact:email": "alexis.tossou@yahoo.fr",
+    "contact:mobile": "5697698",
+    "contact:phone": "+22547471798",
+    "description": "Assistance sociale, soutien social Conseil et dépistage volontaire (CDV) Conseil, informations sur la santé sexuelle et",
+    "healthcare": "clinic",
+    "name": "Clinique orientale Novabio",
+    "opening_hours": "Mo-Sa 07:00-12:00, 14:00-19:00",
+    "operator:type": "private",
+    "project:geoloc_unicef": "yes",
+    "project:geoloc_unicef:id": "SP_074"
+  }
+},
+{
+  "type": "node",
+  "id": 5850018289,
+  "lat": 4.7377110,
+  "lon": -6.6550890,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centre de Soins Pour Ulcers De Buruli"
+  }
+},
+{
+  "type": "node",
+  "id": 5852345459,
+  "lat": 4.7679518,
+  "lon": -6.6670898,
+  "tags": {
+    "addr:suburb": "Zimbabwe",
+    "amenity": "clinic",
+    "contact:mobile": "+22544866374",
+    "contact:phone": "+22544866374",
+    "description": "Conseil et dépistage volontaire (CDV) Consultation Prévention de la Transmission de la Mère à l'Enfant (PTME)",
+    "healthcare": "clinic",
+    "name:fr": "Infirmerie Guibli",
+    "opening_hours": "24/7",
+    "operator:type": "private",
+    "project:geoloc_unicef": "yes",
+    "project:geoloc_unicef:id": "SP_101"
+  }
+},
+{
+  "type": "node",
+  "id": 5854351868,
+  "lat": 4.7546244,
+  "lon": -6.6940246,
+  "tags": {
+    "addr:suburb": "Digboué",
+    "amenity": "clinic",
+    "contact:mobile": "+22504070700",
+    "contact:phone": "+22584201331",
+    "description": "Consultation Distribution de Préservatifs Pédiatrie Pansement Test de grossesse Conseil,",
+    "healthcare": "clinic",
+    "name": "Clinique Maya",
+    "opening_hours": "Mo-Su 08:30-18:30",
+    "operator:type": "private",
+    "project:geoloc_unicef": "yes",
+    "project:geoloc_unicef:id": "SP_025"
+  }
+},
+{
+  "type": "node",
+  "id": 5887794459,
+  "lat": 5.7814595,
+  "lon": -6.6075683,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Mayan Kassy"
+  }
+},
+{
+  "type": "node",
+  "id": 5887798213,
+  "lat": 5.7782099,
+  "lon": -6.5943698,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centre de secours Yvette de Soubré"
+  }
+},
+{
+  "type": "node",
+  "id": 5890722302,
+  "lat": 5.7845517,
+  "lon": -6.5964474,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Chinoise"
+  }
+},
+{
+  "type": "node",
+  "id": 5890748760,
+  "lat": 5.7916573,
+  "lon": -6.5958081,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique"
+  }
+},
+{
+  "type": "node",
+  "id": 5890851958,
+  "lat": 5.7834182,
+  "lon": -6.5781518,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Infirmerie Privée d'Abattoir"
+  }
+},
+{
+  "type": "node",
+  "id": 5890951242,
+  "lat": 5.7803561,
+  "lon": -6.5817205,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Paramédicale"
+  }
+},
+{
+  "type": "node",
+  "id": 5891257786,
+  "lat": 5.7850481,
+  "lon": -6.5913697,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Institut Medicale IAMC Santé"
+  }
+},
+{
+  "type": "node",
+  "id": 5891257857,
+  "lat": 5.7846371,
+  "lon": -6.5921898,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique chinoise"
+  }
+},
+{
+  "type": "node",
+  "id": 5891260144,
+  "lat": 5.7768002,
+  "lon": -6.5871795,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique privée"
+  }
+},
+{
+  "type": "node",
+  "id": 5891260155,
+  "lat": 5.7832635,
+  "lon": -6.5880471,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique les Oliviers"
+  }
+},
+{
+  "type": "node",
+  "id": 5891715587,
+  "lat": 5.7922064,
+  "lon": -6.5845858,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centre paramedical la paix"
+  }
+},
+{
+  "type": "node",
+  "id": 5891872092,
+  "lat": 5.7843556,
+  "lon": -6.5865974,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Infirmerie Privée"
+  }
+},
+{
+  "type": "node",
+  "id": 5892835130,
+  "lat": 5.7877620,
+  "lon": -6.6008870,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "centre de soins chinois",
+    "operator": "ONG RAMAC"
+  }
+},
+{
+  "type": "node",
+  "id": 5892974282,
+  "lat": 5.7994027,
+  "lon": -6.5866403,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique PARA_Medical le prix du pardon"
+  }
+},
+{
+  "type": "node",
+  "id": 5893088788,
+  "lat": 5.7979348,
+  "lon": -6.5920014,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Mory"
+  }
+},
+{
+  "type": "node",
+  "id": 5894266530,
+  "lat": 5.7929396,
+  "lon": -6.6016003,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Infirmerie"
+  }
+},
+{
+  "type": "node",
+  "id": 5894638003,
+  "lat": 5.7807310,
+  "lon": -6.5919444,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Chinoise"
+  }
+},
+{
+  "type": "node",
+  "id": 5913496342,
+  "lat": 5.4209133,
+  "lon": -4.4690081,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Infirmerie"
+  }
+},
+{
+  "type": "node",
+  "id": 5915382287,
+  "lat": 5.3457952,
+  "lon": -3.9564650,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Nouvelle Espérance"
+  }
+},
+{
+  "type": "node",
+  "id": 5921917902,
+  "lat": 5.3514417,
+  "lon": -4.0600035,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Médicale St Jean Baptiste"
+  }
+},
+{
+  "type": "node",
+  "id": 5923687543,
+  "lat": 5.3632278,
+  "lon": -4.0009726,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Médicale Spécialisée",
+    "phone": "+225 22 41 72 96;+225 02 50 59 99"
+  }
+},
+{
+  "type": "node",
+  "id": 5924690682,
+  "lat": 5.3709642,
+  "lon": -4.0011559,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique le rocher"
+  }
+},
+{
+  "type": "node",
+  "id": 5926282070,
+  "lat": 5.3408537,
+  "lon": -4.0723433,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Du Lavage"
+  }
+},
+{
+  "type": "node",
+  "id": 5926805818,
+  "lat": 5.3383186,
+  "lon": -4.0839200,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Médicale Les Orchidées"
+  }
+},
+{
+  "type": "node",
+  "id": 5926954794,
+  "lat": 5.3465293,
+  "lon": -4.0674459,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Chinoise"
+  }
+},
+{
+  "type": "node",
+  "id": 5927195504,
+  "lat": 5.3427685,
+  "lon": -4.0800758,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique AIBEF"
+  }
+},
+{
+  "type": "node",
+  "id": 5929376287,
+  "lat": 5.3806438,
+  "lon": -4.0982551,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Gnanmiensa"
+  }
+},
+{
+  "type": "node",
+  "id": 5931188231,
+  "lat": 5.3819002,
+  "lon": -4.0956996,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique espace médical micao"
+  }
+},
+{
+  "type": "node",
+  "id": 5931188262,
+  "lat": 5.3845465,
+  "lon": -4.0932575,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hôpital Fermé",
+    "operational_status": "closed"
+  }
+},
+{
+  "type": "node",
+  "id": 5934038690,
+  "lat": 5.3364405,
+  "lon": -4.0981646,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique médicale Queen Latifat"
+  }
+},
+{
+  "type": "node",
+  "id": 5934479363,
+  "lat": 5.3375435,
+  "lon": -4.0658145,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Medicale Jean et Marie"
+  }
+},
+{
+  "type": "node",
+  "id": 5934489541,
+  "lat": 5.3477971,
+  "lon": -4.0995634,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinque le chandelier"
+  }
+},
+{
+  "type": "node",
+  "id": 5934489570,
+  "lat": 5.3497746,
+  "lon": -4.1002312,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique saint sauveur"
+  }
+},
+{
+  "type": "node",
+  "id": 5934643058,
+  "lat": 5.3353002,
+  "lon": -4.1014161,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Chinoise"
+  }
+},
+{
+  "type": "node",
+  "id": 5934881447,
+  "lat": 5.3667015,
+  "lon": -4.0949124,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique"
+  }
+},
+{
+  "type": "node",
+  "id": 5936663486,
+  "lat": 5.3316235,
+  "lon": -4.0558031,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Chinoise"
+  }
+},
+{
+  "type": "node",
+  "id": 5936663492,
+  "lat": 5.3313364,
+  "lon": -4.0562068,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Hopital Toit Rouge"
+  }
+},
+{
+  "type": "node",
+  "id": 5936816489,
+  "lat": 5.3471662,
+  "lon": -4.0930738,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Hôpital AFO Sud"
+  }
+},
+{
+  "type": "node",
+  "id": 5937298616,
+  "lat": 5.3438006,
+  "lon": -4.0995768,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Médico Chirugicale Saint Raphael"
+  }
+},
+{
+  "type": "node",
+  "id": 5938934487,
+  "lat": 5.3550582,
+  "lon": -4.0984422,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Médicale Mont Carmel"
+  }
+},
+{
+  "type": "node",
+  "id": 5938934488,
+  "lat": 5.3551383,
+  "lon": -4.0989237,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Médicale le Bélier"
+  }
+},
+{
+  "type": "node",
+  "id": 5938982350,
+  "lat": 5.3491611,
+  "lon": -4.0937282,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique medicale"
+  }
+},
+{
+  "type": "node",
+  "id": 5938982390,
+  "lat": 5.3504663,
+  "lon": -4.0950465,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique medicale houphouet"
+  }
+},
+{
+  "type": "node",
+  "id": 5939220822,
+  "lat": 5.3510231,
+  "lon": -4.0973264,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Ste Jane-Leora"
+  }
+},
+{
+  "type": "node",
+  "id": 5939247262,
+  "lat": 5.3550556,
+  "lon": -4.0984382,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique medicale Mont Carmel"
+  }
+},
+{
+  "type": "node",
+  "id": 5939248083,
+  "lat": 5.3509964,
+  "lon": -4.0972738,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Ste jane-leora"
+  }
+},
+{
+  "type": "node",
+  "id": 5939248403,
+  "lat": 5.3551357,
+  "lon": -4.0989176,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique le belier"
+  }
+},
+{
+  "type": "node",
+  "id": 5949484177,
+  "lat": 5.3428951,
+  "lon": -4.0046062,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique GOSPA"
+  }
+},
+{
+  "type": "node",
+  "id": 5958089838,
+  "lat": 5.4429261,
+  "lon": -4.0535206,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique ONG Santé Côte d'Ivoire"
+  }
+},
+{
+  "type": "node",
+  "id": 5963966933,
+  "lat": 5.4290614,
+  "lon": -4.0328971,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique"
+  }
+},
+{
+  "type": "node",
+  "id": 5966035326,
+  "lat": 5.2907310,
+  "lon": -3.9601440,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Privée Bouakally"
+  }
+},
+{
+  "type": "node",
+  "id": 5966374017,
+  "lat": 5.4437318,
+  "lon": -4.0805713,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Privé Saint Ornella"
+  }
+},
+{
+  "type": "node",
+  "id": 5967146594,
+  "lat": 5.4265274,
+  "lon": -4.0227060,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique spirituel JHSG"
+  }
+},
+{
+  "type": "node",
+  "id": 5970125588,
+  "lat": 5.4428393,
+  "lon": -4.0478054,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Privée Saint Horeb"
+  }
+},
+{
+  "type": "node",
+  "id": 6092856635,
+  "lat": 5.3084999,
+  "lon": -3.9949270,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Sainte Nancy 21263368"
+  }
+},
+{
+  "type": "node",
+  "id": 6128454685,
+  "lat": 5.3636784,
+  "lon": -3.9754121,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Saint Pierre Legrand",
+    "name:en": "Clinic Saint Pierre Legrand",
+    "name:fr": "Clinique Saint Pierre Legrand"
+  }
+},
+{
+  "type": "node",
+  "id": 6137061184,
+  "lat": 6.1036408,
+  "lon": -3.8615018,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centre de santé scolaire et universitaire"
+  }
+},
+{
+  "type": "node",
+  "id": 6291552870,
+  "lat": 5.3182602,
+  "lon": -4.1094973,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique de l'amitié Mère Thérèse"
+  }
+},
+{
+  "type": "node",
+  "id": 6383503732,
+  "lat": 5.3246049,
+  "lon": -4.2559284,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centre de Soins Otcho de Songon"
+  }
+},
+{
+  "type": "node",
+  "id": 6383526828,
+  "lat": 5.6714576,
+  "lon": -6.6441967,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Dispensaire de Gnippi 2"
+  }
+},
+{
+  "type": "node",
+  "id": 6443475103,
+  "lat": 7.3956184,
+  "lon": -7.5505666,
+  "tags": {
+    "addr:suburb": "Camp sea",
+    "amenity": "clinic",
+    "contact:email": "Armelgoni@gmail.com",
+    "contact:phone": "+22543128832",
+    "healthcare": "clinic",
+    "name": "Centre anti-tuberculeux",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator:type": "public",
+    "project:geoloc_unicef": "yes",
+    "project:geoloc_unicef:id": "MN_007",
+    "short_name": "CAT",
+    "source": "DigitalGlobe Standard;survey",
+    "source:date": "2019-04-15"
+  }
+},
+{
+  "type": "node",
+  "id": 6444787519,
+  "lat": 7.3966956,
+  "lon": -7.5674450,
+  "tags": {
+    "addr:suburb": "Doyagouiné 2",
+    "amenity": "hospital",
+    "contact:email": "cms.focolari@gmail.com",
+    "contact:mobile": "+22545968838",
+    "contact:phone": "+22533790522",
+    "healthcare": "hospital",
+    "name": "Centre Medico-social Focolari",
+    "opening_hours": "Mo-Fr 07:30-18:00",
+    "operator:type": "private",
+    "project:geoloc_unicef": "yes",
+    "project:geoloc_unicef:id": "MN_003",
+    "source": "DigitalGlobe Standard;survey",
+    "source:date": "2019-04-15"
+  }
+},
+{
+  "type": "node",
+  "id": 6445263344,
+  "lat": 7.3913599,
+  "lon": -7.5398089,
+  "tags": {
+    "addr:suburb": "Lycée club",
+    "amenity": "clinic",
+    "contact:phone": "+22503135013",
+    "healthcare": "clinic",
+    "name": "Amour du prochain",
+    "opening_hours": "Mo-Su 07:30-21:00",
+    "operator:type": "private",
+    "project:geoloc_unicef": "yes",
+    "project:geoloc_unicef:id": "MN_008",
+    "source": "DigitalGlobe Standard; survey",
+    "source:date": "2019-04-15"
+  }
+},
+{
+  "type": "node",
+  "id": 6445300602,
+  "lat": 7.4146249,
+  "lon": -7.5461195,
+  "tags": {
+    "addr:suburb": "Air France",
+    "amenity": "clinic",
+    "contact:mobile": "+22556542929",
+    "contact:phone": "+22507410952",
+    "healthcare": "clinic",
+    "name": "Clinique Bichat",
+    "opening_hours": "Mo-Su 07:30-12:00,14:00-16:00",
+    "operator:type": "private",
+    "project:geoloc_unicef": "yes",
+    "project:geoloc_unicef:id": "MN_014",
+    "source": "DigitalGlobe Standard; survey",
+    "source:date": "2019-04-15"
+  }
+},
+{
+  "type": "node",
+  "id": 6466415860,
+  "lat": 6.7284689,
+  "lon": -3.5079145,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique médicale saint david"
+  }
+},
+{
+  "type": "node",
+  "id": 6466425838,
+  "lat": 7.3654422,
+  "lon": -3.2052187,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de santé communautaire de Tankesse"
+  }
+},
+{
+  "type": "node",
+  "id": 6472403835,
+  "lat": 6.8912225,
+  "lon": -6.4263458,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Afro-asiatique",
+    "source": "Bing;survey"
+  }
+},
+{
+  "type": "node",
+  "id": 6472731569,
+  "lat": 6.8759965,
+  "lon": -6.4601842,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Huberson"
+  }
+},
+{
+  "type": "node",
+  "id": 6473004440,
+  "lat": 6.9014950,
+  "lon": -6.4457660,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "MaximumtBl Group",
+    "source": "Bing;survey"
+  }
+},
+{
+  "type": "node",
+  "id": 6475749871,
+  "lat": 6.8604984,
+  "lon": -6.4357248,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Tosseta",
+    "source": "Bing;survey"
+  }
+},
+{
+  "type": "node",
+  "id": 6476121512,
+  "lat": 6.8696521,
+  "lon": -6.4449352,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Social Santé Pour Tous"
+  }
+},
+{
+  "type": "node",
+  "id": 6478225139,
+  "lat": 6.8767089,
+  "lon": -6.4774731,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique médicale Kehassemon",
+    "source": "Bing;survey"
+  }
+},
+{
+  "type": "node",
+  "id": 6478791112,
+  "lat": 6.8682767,
+  "lon": -6.4560905,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Infirmerie Privée Kaoka"
+  }
+},
+{
+  "type": "node",
+  "id": 6478880890,
+  "lat": 6.8880880,
+  "lon": -6.4629254,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Infirmerie Privée"
+  }
+},
+{
+  "type": "node",
+  "id": 6478895360,
+  "lat": 6.8543159,
+  "lon": -6.4409508,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Infirmerie Etablissement Ali Coulibaly"
+  }
+},
+{
+  "type": "node",
+  "id": 6480218096,
+  "lat": 5.3477456,
+  "lon": -4.0730826,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique médicale oasis santé"
+  }
+},
+{
+  "type": "node",
+  "id": 6522757560,
+  "lat": 6.8825220,
+  "lon": -6.4568858,
+  "tags": {
+    "addr:suburb": "Grand marché extension",
+    "amenity": "clinic",
+    "contact:phone": "+22532787720",
+    "healthcare": "clinic",
+    "name": "Clinique Sainte Famille",
+    "opening_hours": "Mo-Sa 08:00-12:00,12:00-18:00",
+    "operator:type": "private",
+    "project:geoloc_unicef": "yes",
+    "project:geoloc_unicef:id": "DAL_112",
+    "source": "DigitalGlobe Standard,survey",
+    "source:date": "2019-05-12"
+  }
+},
+{
+  "type": "node",
+  "id": 6522757569,
+  "lat": 6.8798531,
+  "lon": -6.4574598,
+  "tags": {
+    "addr:suburb": "Belle ville",
+    "amenity": "clinic",
+    "contact:email": "cmsgracedivine@yahoo.fr",
+    "contact:mobile": "+22547539198",
+    "contact:phone": "+22532781172",
+    "healthcare": "clinic",
+    "name": "Clinique médicale Grâce Divine",
+    "opening_hours": "24/7",
+    "operator:type": "private",
+    "project:geoloc_unicef": "yes",
+    "project:geoloc_unicef:id": "DAL_006",
+    "source": "DigitalGlobe Standard,survey",
+    "source:date": "2019-05-12"
+  }
+},
+{
+  "type": "node",
+  "id": 6523739342,
+  "lat": 6.8573331,
+  "lon": -6.4376389,
+  "tags": {
+    "addr:suburb": "Garage",
+    "amenity": "clinic",
+    "contact:phone": "+22573140833",
+    "healthcare": "clinic",
+    "name": "Clinique El Rapha",
+    "opening_hours": "24/7",
+    "operator:type": "private",
+    "project:geoloc_unicef": "yes",
+    "project:geoloc_unicef:id": "DAL_076",
+    "source": "DigitalGlobe Standard,survey",
+    "source:date": "2019-05-12"
+  }
+},
+{
+  "type": "node",
+  "id": 6524004688,
+  "lat": 6.8946978,
+  "lon": -6.4506698,
+  "tags": {
+    "addr:suburb": "Lobia 1( route de",
+    "amenity": "clinic",
+    "contact:email": "csmsdaloa@gmail.com",
+    "contact:mobile": "+22557718311",
+    "contact:phone": "+22532781418",
+    "healthcare": "clinic",
+    "name": "Clinique Médicale Solidarité",
+    "opening_hours": "24/7",
+    "operator:type": "private",
+    "project:geoloc_unicef": "yes",
+    "project:geoloc_unicef:id": "DAL_099",
+    "short_name": "CMS",
+    "source": "DigitalGlobe Standard,survey",
+    "source:date": "2019-05-12"
+  }
+},
+{
+  "type": "node",
+  "id": 6524004694,
+  "lat": 6.8962423,
+  "lon": -6.4379346,
+  "tags": {
+    "addr:suburb": "Tazibouo",
+    "amenity": "clinic",
+    "contact:phone": "+22532780252",
+    "healthcare": "clinic",
+    "name": "Clinique Antilope",
+    "opening_hours": "24/7",
+    "operator:type": "private",
+    "project:geoloc_unicef": "yes",
+    "project:geoloc_unicef:id": "DAL_060",
+    "source": "DigitalGlobe Standard,survey",
+    "source:date": "2019-05-12"
+  }
+},
+{
+  "type": "node",
+  "id": 6524024108,
+  "lat": 6.9009740,
+  "lon": -6.4420156,
+  "tags": {
+    "addr:suburb": "Tazibouo",
+    "amenity": "clinic",
+    "contact:mobile": "+22566003200",
+    "contact:phone": "+22566003200",
+    "healthcare": "clinic",
+    "name": "Clinique Médicale Espoir",
+    "opening_hours": "24/7",
+    "operator:type": "private",
+    "project:geoloc_unicef": "yes",
+    "project:geoloc_unicef:id": "DAL_022",
+    "source": "DigitalGlobe Standard,survey",
+    "source:date": "2019-05-12"
+  }
+},
+{
+  "type": "node",
+  "id": 6524024109,
+  "lat": 6.9097039,
+  "lon": -6.4514215,
+  "tags": {
+    "addr:suburb": "Gkokora",
+    "amenity": "clinic",
+    "contact:mobile": "+22547176851",
+    "contact:phone": "+22548999624",
+    "healthcare": "clinic",
+    "name": "Clinique Sainte Vie",
+    "opening_hours": "Mo-Su 08:00-12:00,12:00-21:00",
+    "operator:type": "private",
+    "project:geoloc_unicef": "yes",
+    "project:geoloc_unicef:id": "DAL_113",
+    "source": "DigitalGlobe Standard,survey",
+    "source:date": "2019-05-12"
+  }
+},
+{
+  "type": "node",
+  "id": 6564517404,
+  "lat": 4.7811653,
+  "lon": -6.6566802,
+  "tags": {
+    "addr:suburb": "Victor balet 1",
+    "amenity": "clinic",
+    "contact:phone": "+22546530742",
+    "description": "soins",
+    "healthcare": "clinic",
+    "name": "clinique de tonton Bertin",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator:type": "private",
+    "project:geoloc_unicef": "yes",
+    "project:geoloc_unicef:id": "SP_050"
+  }
+},
+{
+  "type": "node",
+  "id": 6564548552,
+  "lat": 4.7656651,
+  "lon": -6.6668974,
+  "tags": {
+    "addr:suburb": "Zimbabwe",
+    "amenity": "clinic",
+    "contact:mobile": "+22504028557",
+    "contact:phone": "+22509599234",
+    "description": "Consultation Pédiatrie Pansement Test de grossesse Traitement IST (gono, chaude pisse)",
+    "healthcare": "clinic",
+    "name": "Clinique Afrique Noire",
+    "opening_hours": "Mo-Su 07:30-20:00",
+    "operator:type": "private",
+    "project:geoloc_unicef": "yes",
+    "project:geoloc_unicef:id": "SP_109"
+  }
+},
+{
+  "type": "node",
+  "id": 6564582000,
+  "lat": 4.7441396,
+  "lon": -6.6322862,
+  "tags": {
+    "addr:suburb": "Cité nitoro",
+    "amenity": "clinic",
+    "contact:email": "evssanpedronew@gmail.com",
+    "contact:mobile": "59750244",
+    "contact:phone": "+22534710434",
+    "description": "Accouchement Consultation Consultation prénatale Dépistage VIH, IST Ecoute soutien psy-social gynéco-obstétriques",
+    "healthcare": "clinic",
+    "name": "Clinique Espace Médical Santé",
+    "opening_hours": "24/7",
+    "operator:type": "private",
+    "project:geoloc_unicef": "yes",
+    "project:geoloc_unicef:id": "SP_062",
+    "short_name": "EVS"
+  }
+},
+{
+  "type": "node",
+  "id": 6564588122,
+  "lat": 4.7598528,
+  "lon": -6.6918272,
+  "tags": {
+    "addr:suburb": "Digboue",
+    "amenity": "clinic",
+    "contact:mobile": "+22501653330",
+    "contact:phone": "+22565820654",
+    "description": "Consultation Conseil et dépistage volontaire (CDV) Conseil, informations sur la santé sexuelle",
+    "healthcare": "clinic",
+    "name": "Clinique la Grâce",
+    "opening_hours": "Mo-Su 08:00-18:00",
+    "operator:type": "private",
+    "project:geoloc_unicef": "yes",
+    "project:geoloc_unicef:id": "SP_004"
+  }
+},
+{
+  "type": "node",
+  "id": 6564622156,
+  "lat": 4.7828746,
+  "lon": -6.6657937,
+  "tags": {
+    "addr:suburb": "Château",
+    "amenity": "clinic",
+    "contact:phone": "+22549000524",
+    "description": "Conseil et dépistage volontaire (CDV) Conseil, informations sur la santé sexuelle et reproductive Consultation Contraceptifs",
+    "healthcare": "clinic",
+    "name": "Infirmerie privée du bien-être",
+    "opening_hours": "Mo-Su 07:00-22:00",
+    "operator:type": "private",
+    "project:geoloc_unicef": "yes",
+    "project:geoloc_unicef:id": "SP_115"
+  }
+},
+{
+  "type": "node",
+  "id": 6576020319,
+  "lat": 5.3509823,
+  "lon": -4.0971524,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Sainte Jane-Leora"
+  }
+},
+{
+  "type": "node",
+  "id": 6583257554,
+  "lat": 5.4605238,
+  "lon": -4.0724562,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Paul Marie"
+  }
+},
+{
+  "type": "node",
+  "id": 6584420878,
+  "lat": 5.3589635,
+  "lon": -3.9529872,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique médicale Saint Viateur"
+  }
+},
+{
+  "type": "node",
+  "id": 6588452013,
+  "lat": 5.4040311,
+  "lon": -3.9864268,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique médicale d’Angré",
+    "phone": "+225 05 32 31 04"
+  }
+},
+{
+  "type": "node",
+  "id": 6591815119,
+  "lat": 5.3589228,
+  "lon": -3.9528623,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique médicale Saint Viateur"
+  }
+},
+{
+  "type": "node",
+  "id": 6618545143,
+  "lat": 6.7323030,
+  "lon": -5.3052598,
+  "tags": {
+    "addr:city": "akpessekro",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general",
+    "name": "centre de santé d'apkessekro",
+    "opening_hours": "24/7",
+    "operator": "vilageois",
+    "operator:type": "public"
+  }
+},
+{
+  "type": "node",
+  "id": 6621036046,
+  "lat": 7.7141427,
+  "lon": -4.9927638,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "birthing_centre",
+    "name": "Maternité Privée Touré",
+    "operator:type": "private"
+  }
+},
+{
+  "type": "node",
+  "id": 6625112472,
+  "lat": 5.4419208,
+  "lon": -4.0441275,
+  "tags": {
+    "addr:suburb": "Abobo",
+    "amenity": "clinic",
+    "contact:phone": "+22572262672",
+    "description": "Consultation Vaccination, prévention, cas de morsures de d'animaux",
+    "healthcare": "clinic",
+    "name": "Institut National d'Hygiène Publique",
+    "opening_hours": "Mo-Sa 00:00-00:00",
+    "operator:type": "public",
+    "project:geoloc_unicef": "yes",
+    "project:geoloc_unicef:id": "ABJ_357",
+    "short_name": "INHP"
+  }
+},
+{
+  "type": "node",
+  "id": 6627319441,
+  "lat": 5.2943320,
+  "lon": -4.0050986,
+  "tags": {
+    "addr:suburb": "Treichville",
+    "amenity": "clinic",
+    "contact:email": "Inhp@inhp.ci",
+    "contact:phone": "+22521259278",
+    "description": "Conseil et dépistage volontaire (CDV) Conseil, informations sur la santé sexuelle et reproductive",
+    "healthcare": "clinic",
+    "name": "Institut National d’Hygiène Publique de Treichville",
+    "opening_hours": "Mo-Fr 07:30-14:30; Sa 08:00-12:00",
+    "operator:type": "public",
+    "project:geoloc_unicef": "yes",
+    "project:geoloc_unicef:id": "ABJ_078",
+    "short_name": "INHP Treichville"
+  }
+},
+{
+  "type": "node",
+  "id": 6648294671,
+  "lat": 5.3518643,
+  "lon": -4.0617180,
+  "tags": {
+    "addr:suburb": "Yopougon",
+    "amenity": "clinic",
+    "contact:mobile": "+22556168422",
+    "contact:phone": "+22523518444",
+    "description": "Centre de rééducation",
+    "healthcare": "clinic",
+    "name": "Clinique médicale Les oliviers",
+    "opening_hours": "Mo-Fr 08:00-12:00, 14:00-17:00",
+    "operator:type": "private",
+    "project:geoloc_unicef": "yes",
+    "project:geoloc_unicef:id": "ABJ_215"
+  }
+},
+{
+  "type": "node",
+  "id": 6648366524,
+  "lat": 5.3271280,
+  "lon": -4.0965711,
+  "tags": {
+    "addr:suburb": "Yopougon",
+    "amenity": "clinic",
+    "contact:email": "emss.sauveur@gmail.com",
+    "contact:mobile": "+22523456115",
+    "contact:phone": "+22523456228",
+    "description": "Accouchement Consultation, Pédiatrie gynéco-obstétriques, Médecine générale, Gynécologie, Dermatologie",
+    "healthcare": "clinic",
+    "name": "Saint sauveur",
+    "opening_hours": "24/7",
+    "operator:type": "private",
+    "project:geoloc_unicef": "yes",
+    "project:geoloc_unicef:id": "ABJ_267",
+    "source": "DigitalGlobe Standard; survey",
+    "source:date": "2019-06-14"
+  }
+},
+{
+  "type": "node",
+  "id": 6661377929,
+  "lat": 5.2417850,
+  "lon": -3.8995495,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique médicale Le jourdain",
+    "opening_hours": "24/7",
+    "phone": "+225 52154265"
+  }
+},
+{
+  "type": "node",
+  "id": 6665445657,
+  "lat": 5.4325252,
+  "lon": -4.0664850,
+  "tags": {
+    "addr:suburb": "Abobo",
+    "amenity": "clinic",
+    "contact:phone": "+22571434174",
+    "description": "Conseil et dépistage du VIH Prévention de la transmission mère-enfant du VIH,",
+    "healthcare": "clinic",
+    "name": "Ong Ivoire Santé",
+    "note": "Santé",
+    "office": "ngo",
+    "opening_hours": "24/7",
+    "project:geoloc_unicef": "yes",
+    "project:geoloc_unicef:id": "ABJ_330",
+    "source": "DigitalGlobe Standard; survey",
+    "source:date": "2019-06-14"
+  }
+},
+{
+  "type": "node",
+  "id": 7101369263,
+  "lat": 6.6181552,
+  "lon": -6.0462339,
+  "tags": {
+    "amenity": "hospital",
+    "fixme": "confirm location, this is squarely on the road",
+    "healthcare": "hospital",
+    "name": "Centre de santé de kouetinfla"
+  }
+},
+{
+  "type": "node",
+  "id": 7101369292,
+  "lat": 6.6521550,
+  "lon": -5.8092760,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de santé"
+  }
+},
+{
+  "type": "node",
+  "id": 7101381137,
+  "lat": 6.4888273,
+  "lon": -6.3907123,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de santé rural"
+  }
+},
+{
+  "type": "node",
+  "id": 7141154385,
+  "lat": 5.3107441,
+  "lon": -3.9909917,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique les Myriades"
+  }
+},
+{
+  "type": "node",
+  "id": 7342538887,
+  "lat": 8.0229602,
+  "lon": -6.1788861,
+  "tags": {
+    "amenity": "hospital",
+    "fixme": "No building near this point.  Please verify location",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 7366783188,
+  "lat": 9.5638411,
+  "lon": -5.3722960,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "internet_access": "wlan",
+    "name": "Lokaha 1",
+    "name:en": "Lokaha z"
+  }
+},
+{
+  "type": "node",
+  "id": 7526020496,
+  "lat": 5.2150963,
+  "lon": -3.7645044,
+  "tags": {
+    "amenity": "hospital",
+    "email": "cmsaintefamille@outlook.fr",
+    "healthcare": "hospital",
+    "name": "Centre Médical Sainte Famille de Grand-Bassam",
+    "phone": "+22588895460",
+    "short_name": "CMSF de Grand-Bassam"
+  }
+},
+{
+  "type": "node",
+  "id": 7528863333,
+  "lat": 5.2403858,
+  "lon": -3.7715124,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centre de Santé Rural de Vitré 1"
+  }
+},
+{
+  "type": "node",
+  "id": 7541757331,
+  "lat": 5.4703248,
+  "lon": -4.0348552,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centre médical Afrique futur"
+  }
+},
+{
+  "type": "node",
+  "id": 7541758378,
+  "lat": 5.5016584,
+  "lon": -4.0462943,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de Traitement des Maladies Infectieuses"
+  }
+},
+{
+  "type": "node",
+  "id": 7603124714,
+  "lat": 5.2626973,
+  "lon": -4.9976732,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Clinique Saint-Jean de Dieu",
+    "phone": "+22502581301"
+  }
+},
+{
+  "type": "node",
+  "id": 7604620838,
+  "lat": 5.2196333,
+  "lon": -3.7284063,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre Médical Kine Fatima",
+    "phone": "+22521312255"
+  }
+},
+{
+  "type": "node",
+  "id": 7606552721,
+  "lat": 5.6862687,
+  "lon": -4.5150463,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 7611602203,
+  "lat": 5.3708260,
+  "lon": -4.0000762,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "baaba"
+  }
+},
+{
+  "type": "node",
+  "id": 7612892914,
+  "lat": 5.9272190,
+  "lon": -4.9640962,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de Santé Rural d'Eticoon"
+  }
+},
+{
+  "type": "node",
+  "id": 7615944030,
+  "lat": 5.5752852,
+  "lon": -5.2531416,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 7621924484,
+  "lat": 5.8372140,
+  "lon": -5.3498667,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de Santé NDA"
+  }
+},
+{
+  "type": "node",
+  "id": 7621929041,
+  "lat": 5.6734940,
+  "lon": -6.6446512,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de Santé Rural de Gnippi 2"
+  }
+},
+{
+  "type": "node",
+  "id": 7621948315,
+  "lat": 5.7206156,
+  "lon": -6.6307048,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Dispensaire Rural de Gnakaradigui"
+  }
+},
+{
+  "type": "node",
+  "id": 7621949894,
+  "lat": 5.9000612,
+  "lon": -5.1607245,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 7635564647,
+  "lat": 6.5512687,
+  "lon": -6.8481316,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de Santé Urbain d'Iboguhé",
+    "short_name": "CSU d'Iboguhé"
+  }
+},
+{
+  "type": "node",
+  "id": 7644507376,
+  "lat": 6.5448469,
+  "lon": -7.4862895,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Médicale Joseph"
+  }
+},
+{
+  "type": "node",
+  "id": 7644565387,
+  "lat": 6.4946708,
+  "lon": -6.6333707,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de sante"
+  }
+},
+{
+  "type": "node",
+  "id": 7662448789,
+  "lat": 7.1156175,
+  "lon": -7.5537529,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 7662458972,
+  "lat": 7.5292497,
+  "lon": -7.6293833,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 7662469590,
+  "lat": 7.1835115,
+  "lon": -7.5743707,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 7662469607,
+  "lat": 7.9520347,
+  "lon": -7.6763465,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 7669542177,
+  "lat": 9.8152551,
+  "lon": -7.3866812,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de Santé Régional de Banankoro"
+  }
+},
+{
+  "type": "node",
+  "id": 7669580430,
+  "lat": 9.8157817,
+  "lon": -7.5117928,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de Santé Urbain de Kaniasso"
+  }
+},
+{
+  "type": "node",
+  "id": 7673088805,
+  "lat": 9.5349710,
+  "lon": -6.4894327,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 7682343938,
+  "lat": 9.5481849,
+  "lon": -5.4921434,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de Santé Rural"
+  }
+},
+{
+  "type": "node",
+  "id": 7682360450,
+  "lat": 9.5642252,
+  "lon": -5.5249729,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 7682378392,
+  "lat": 9.5818545,
+  "lon": -5.5036761,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic"
+  }
+},
+{
+  "type": "node",
+  "id": 7683142211,
+  "lat": 8.0639354,
+  "lon": -5.2523304,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 7688748858,
+  "lat": 9.8317669,
+  "lon": -6.4504284,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hôpital de Gbon"
+  }
+},
+{
+  "type": "node",
+  "id": 7688748859,
+  "lat": 7.1090173,
+  "lon": -5.3487513,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de Santé Yadibikro"
+  }
+},
+{
+  "type": "node",
+  "id": 7689124999,
+  "lat": 7.1578609,
+  "lon": -5.3661549,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de Santé Urbain de Molonou"
+  }
+},
+{
+  "type": "node",
+  "id": 7705302585,
+  "lat": 7.2687930,
+  "lon": -8.1483119,
+  "tags": {
+    "addr:street": "Rue de la mairie",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "MÉDICO-SCOLAIRE",
+    "opening_hours": "Mo-Su 08:00-19:00"
+  }
+},
+{
+  "type": "node",
+  "id": 7709996118,
+  "lat": 6.4302656,
+  "lon": -5.3581155,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Dispensaire Rural de Zangue"
+  }
+},
+{
+  "type": "node",
+  "id": 7716901653,
+  "lat": 6.6398966,
+  "lon": -5.6557391,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de Santé Rural de Kayeta"
+  }
+},
+{
+  "type": "node",
+  "id": 7716903225,
+  "lat": 6.6502078,
+  "lon": -5.6095916,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de Santé Urbain de Kononfla"
+  }
+},
+{
+  "type": "node",
+  "id": 7720448542,
+  "lat": 6.7700097,
+  "lon": -4.2922321,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de Santé Urbain de Assié-Koumassi"
+  }
+},
+{
+  "type": "node",
+  "id": 7722307385,
+  "lat": 6.7259274,
+  "lon": -3.4973745,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Dispensaire Urbain de Dioulakro"
+  }
+},
+{
+  "type": "node",
+  "id": 7724786745,
+  "lat": 9.2304887,
+  "lon": -3.0639000,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de Santé Rural Assoum I"
+  }
+},
+{
+  "type": "node",
+  "id": 7724787711,
+  "lat": 9.1003789,
+  "lon": -3.1516888,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Dispensaire Rural de Kaflandé"
+  }
+},
+{
+  "type": "node",
+  "id": 7724852832,
+  "lat": 9.6563584,
+  "lon": -3.2799219,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centre de Santé Rural de Varale"
+  }
+},
+{
+  "type": "node",
+  "id": 7727014641,
+  "lat": 8.4917040,
+  "lon": -3.1248888,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic"
+  }
+},
+{
+  "type": "node",
+  "id": 7731295641,
+  "lat": 8.6141402,
+  "lon": -3.1599028,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Dispensaire Rural de Bogofa"
+  }
+},
+{
+  "type": "node",
+  "id": 7731298764,
+  "lat": 8.8281190,
+  "lon": -3.1789699,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Dispensaire Rural de Sanguinari"
+  }
+},
+{
+  "type": "node",
+  "id": 7731307818,
+  "lat": 8.5595779,
+  "lon": -3.1214423,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Dispensaire Rural de Tefrodouo"
+  }
+},
+{
+  "type": "node",
+  "id": 7731308162,
+  "lat": 9.4167669,
+  "lon": -3.1059321,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic"
+  }
+},
+{
+  "type": "node",
+  "id": 7731328405,
+  "lat": 8.3989292,
+  "lon": -3.0985915,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic"
+  }
+},
+{
+  "type": "node",
+  "id": 7731727469,
+  "lat": 7.1274396,
+  "lon": -3.1993050,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hôpital Général d'Agnibilekro"
+  }
+},
+{
+  "type": "node",
+  "id": 7741436327,
+  "lat": 6.8251613,
+  "lon": -3.5696308,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de Santé Urbain d'Amelekia"
+  }
+},
+{
+  "type": "node",
+  "id": 7741543244,
+  "lat": 7.6663171,
+  "lon": -3.2161721,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de Santé Rural Boukro"
+  }
+},
+{
+  "type": "node",
+  "id": 7741551049,
+  "lat": 7.2008129,
+  "lon": -3.1053911,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de Santé de Diemba"
+  }
+},
+{
+  "type": "node",
+  "id": 7747603027,
+  "lat": 9.8092513,
+  "lon": -3.3373953,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hôpital général de Doropo"
+  }
+},
+{
+  "type": "node",
+  "id": 7747607203,
+  "lat": 6.9542883,
+  "lon": -5.2674315,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de Santé Urbain de Lolobo"
+  }
+},
+{
+  "type": "node",
+  "id": 7747615885,
+  "lat": 8.0439455,
+  "lon": -2.8000498,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Ong Eveil",
+    "office": "ngo"
+  }
+},
+{
+  "type": "node",
+  "id": 7758964761,
+  "lat": 5.4862944,
+  "lon": -5.2305892,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de santé rural de Kouta"
+  }
+},
+{
+  "type": "node",
+  "id": 7761717785,
+  "lat": 5.3064062,
+  "lon": -4.0025948,
+  "tags": {
+    "addr:street": "Avenue de la Reine Pokou",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "INHP TREICHVILLE",
+    "name:en": "International travel hospital",
+    "phone": "+225 21 25 92 54"
+  }
+},
+{
+  "type": "node",
+  "id": 7775296053,
+  "lat": 7.1865787,
+  "lon": -5.2865498,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 7775297702,
+  "lat": 9.8972449,
+  "lon": -6.5016827,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 7784285380,
+  "lat": 5.3354933,
+  "lon": -4.0888783,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Notre Dame de Lourdes",
+    "phone": "+225 23 46 19 12"
+  }
+},
+{
+  "type": "node",
+  "id": 7790543554,
+  "lat": 8.3314720,
+  "lon": -3.0667660,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de Santé Rural"
+  }
+},
+{
+  "type": "node",
+  "id": 7790727550,
+  "lat": 8.9471931,
+  "lon": -3.1823877,
+  "tags": {
+    "amenity": "clinic",
+    "fixme": "updated tag, but not clear which building to which this POI refers.",
+    "healthcare": "clinic",
+    "name": "Dispensaire Rural"
+  }
+},
+{
+  "type": "node",
+  "id": 7825177022,
+  "lat": 5.3239063,
+  "lon": -4.0159713,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Cabinet Médical Succar"
+  }
+},
+{
+  "type": "node",
+  "id": 7869376758,
+  "lat": 6.4787581,
+  "lon": -5.7062843,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de Santé de Guepahouo"
+  }
+},
+{
+  "type": "node",
+  "id": 7986953886,
+  "lat": 5.2953928,
+  "lon": -3.3820968,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Dispensaire"
+  }
+},
+{
+  "type": "node",
+  "id": 8040531151,
+  "lat": 9.4553170,
+  "lon": -5.6314103,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Polyclinique la Sisangue",
+    "opening_hours": "24/7",
+    "operator:type": "private",
+    "source": "survey",
+    "source:date": "2023-08-04"
+  }
+},
+{
+  "type": "node",
+  "id": 8103782620,
+  "lat": 7.4105868,
+  "lon": -7.5524891,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "PMI MAN"
+  }
+},
+{
+  "type": "node",
+  "id": 8165631145,
+  "lat": 5.3977765,
+  "lon": -3.9690667,
+  "tags": {
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "healthcare:speciality": "general;gynaecology;paediatrics",
+    "name": "Clinique Sainte Justine"
+  }
+},
+{
+  "type": "node",
+  "id": 8168176884,
+  "lat": 6.5609252,
+  "lon": -5.0184882,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Chinoise"
+  }
+},
+{
+  "type": "node",
+  "id": 8186941407,
+  "lat": 7.1379412,
+  "lon": -3.1981587,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de Santé Palazzolo"
+  }
+},
+{
+  "type": "node",
+  "id": 8234555076,
+  "lat": 5.3379462,
+  "lon": -3.9814267,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre Médical Riviera AmbassadeCMRA",
+    "phone": "+22522435454"
+  }
+},
+{
+  "type": "node",
+  "id": 8244553896,
+  "lat": 6.6444280,
+  "lon": -4.1840597,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "clinic",
+    "name": "Centre de santé"
+  }
+},
+{
+  "type": "node",
+  "id": 8301965820,
+  "lat": 5.9545229,
+  "lon": -4.1880192,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de Santé Rural de Moutcho"
+  }
+},
+{
+  "type": "node",
+  "id": 8554764935,
+  "lat": 5.3722306,
+  "lon": -4.0783305,
+  "tags": {
+    "alt_name": "Emy espace médical Yopougon",
+    "amenity": "hospital",
+    "fax": "+225 27 23 4 08144",
+    "healthcare": "hospital",
+    "name": "EMY polyclinique",
+    "phone": "+225 27 23 4 08140;+225 07 49 99 4999"
+  }
+},
+{
+  "type": "node",
+  "id": 8569018159,
+  "lat": 5.3876108,
+  "lon": -3.9925848,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique St Gabrielle",
+    "project:opencities_abidjan": "yes",
+    "source": "survey",
+    "source:date": "2021-02-25"
+  }
+},
+{
+  "type": "node",
+  "id": 8575695962,
+  "lat": 5.4040193,
+  "lon": -3.9904357,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Espace Bio médical Robinson International",
+    "project:opencities_abidjan": "yes",
+    "source": "survey",
+    "source:date": "2021-02-26"
+  }
+},
+{
+  "type": "node",
+  "id": 8584375871,
+  "lat": 5.4201713,
+  "lon": -4.0084980,
+  "tags": {
+    "amenity": "clinic",
+    "fid": "812",
+    "healthcare": "clinic",
+    "name": "Centre De Soins Kennedy",
+    "project:opencities_abidjan": "yes",
+    "source": "survey",
+    "source:date": "2021-03-04"
+  }
+},
+{
+  "type": "node",
+  "id": 8584387170,
+  "lat": 5.3787789,
+  "lon": -3.9884704,
+  "tags": {
+    "amenity": "clinic",
+    "fid": "205",
+    "healthcare": "clinic",
+    "name": "Clinique Médicale Cœur Sacré",
+    "project:opencities_abidjan": "yes",
+    "source": "survey",
+    "source:date": "2021-02-25"
+  }
+},
+{
+  "type": "node",
+  "id": 8584407584,
+  "lat": 5.4001049,
+  "lon": -3.9910826,
+  "tags": {
+    "amenity": "clinic",
+    "fid": "362",
+    "healthcare": "clinic",
+    "name": "Cabinet De Santé Phytothérapie",
+    "project:opencities_abidjan": "yes",
+    "source": "survey",
+    "source:date": "2021-03-02"
+  }
+},
+{
+  "type": "node",
+  "id": 8584445358,
+  "lat": 5.4185624,
+  "lon": -4.0089959,
+  "tags": {
+    "amenity": "clinic",
+    "fid": "821",
+    "healthcare": "clinic",
+    "name": "Clinique Médicale",
+    "project:opencities_abidjan": "yes",
+    "source": "survey",
+    "source:date": "2021-03-04"
+  }
+},
+{
+  "type": "node",
+  "id": 8584560434,
+  "lat": 5.4322945,
+  "lon": -4.0252962,
+  "tags": {
+    "amenity": "hospital",
+    "fid": "560",
+    "healthcare": "hospital",
+    "name": "Petit Hôpital",
+    "project:opencities_abidjan": "yes",
+    "source": "survey",
+    "source:date": "07/03/2021"
+  }
+},
+{
+  "type": "node",
+  "id": 8586102101,
+  "lat": 5.4385100,
+  "lon": -4.0160527,
+  "tags": {
+    "amenity": "clinic",
+    "fid": "289",
+    "healthcare": "clinic",
+    "name": "Clinique Médical Sika Abobo",
+    "project:opencities_abidjan": "yes",
+    "source": "survey",
+    "source:date": "02/03/2021"
+  }
+},
+{
+  "type": "node",
+  "id": 8586466381,
+  "lat": 5.4235268,
+  "lon": -4.0004676,
+  "tags": {
+    "amenity": "hospital",
+    "fid": "939",
+    "healthcare": "hospital",
+    "name": "Centre Communautaire De Kennedy-Clouetcha",
+    "project:opencities_abidjan": "yes",
+    "source": "survey",
+    "source:date": "03/03/2021"
+  }
+},
+{
+  "type": "node",
+  "id": 8586929349,
+  "lat": 5.3719905,
+  "lon": -3.9708486,
+  "tags": {
+    "amenity": "clinic",
+    "fid": "236",
+    "healthcare": "clinic",
+    "name": "Centre De Thermothérapie",
+    "project:opencities_abidjan": "yes",
+    "source": "survey",
+    "source:date": "24/02/2021"
+  }
+},
+{
+  "type": "node",
+  "id": 8592127780,
+  "lat": 5.4223372,
+  "lon": -3.9898700,
+  "tags": {
+    "amenity": "hospital",
+    "fid": "633",
+    "healthcare": "hospital",
+    "name": "Antenne d'Hygiène Publique d'Abobo",
+    "project:opencities_abidjan": "yes",
+    "source": "survey",
+    "source:date": "06/03/2021"
+  }
+},
+{
+  "type": "node",
+  "id": 8596308588,
+  "lat": 5.4057672,
+  "lon": -4.0010689,
+  "tags": {
+    "amenity": "hospital",
+    "fid": "464",
+    "healthcare": "hospital",
+    "name": "Centre de Santé",
+    "project:opencities_abidjan": "yes",
+    "source": "survey",
+    "source:date": "03/03/2021"
+  }
+},
+{
+  "type": "node",
+  "id": 8596311504,
+  "lat": 5.4136967,
+  "lon": -4.0031818,
+  "tags": {
+    "amenity": "clinic",
+    "fid": "512",
+    "healthcare": "clinic",
+    "name": "Bio Pharma",
+    "project:opencities_abidjan": "yes",
+    "source": "survey",
+    "source:date": "03/03/2021"
+  }
+},
+{
+  "type": "node",
+  "id": 8753437929,
+  "lat": 5.3406440,
+  "lon": -4.0286169,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Infirmerie Privés Le Temps"
+  }
+},
+{
+  "type": "node",
+  "id": 8754078002,
+  "lat": 5.3401653,
+  "lon": -4.0274059,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Infirmerie"
+  }
+},
+{
+  "type": "node",
+  "id": 8754115590,
+  "lat": 5.3422998,
+  "lon": -4.0289646,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Chinoise"
+  }
+},
+{
+  "type": "node",
+  "id": 8754118017,
+  "lat": 5.3408490,
+  "lon": -4.0275340,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Nouvelle Clinique d'Adjame"
+  }
+},
+{
+  "type": "node",
+  "id": 8832680253,
+  "lat": 5.3581779,
+  "lon": -3.9265004,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique C2H",
+    "project:opencities_abidjan": "yes",
+    "source": "survey",
+    "source:date": "2021/02/24"
+  }
+},
+{
+  "type": "node",
+  "id": 8836797607,
+  "lat": 5.4082730,
+  "lon": -3.9879915,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centre Médical Spécialisé Soumeya",
+    "project:opencities_abidjan": "yes",
+    "source": "survey",
+    "source:date": "01/03/2021"
+  }
+},
+{
+  "type": "node",
+  "id": 8842281396,
+  "lat": 5.4399218,
+  "lon": -4.0226998,
+  "tags": {
+    "amenity": "clinic",
+    "fid": "811",
+    "healthcare": "clinic",
+    "name": "Centre médico chirurgical d'abobo",
+    "project:opencities_abidjan": "yes",
+    "source": "survey",
+    "source:date": "2021/03/09"
+  }
+},
+{
+  "type": "node",
+  "id": 8842436412,
+  "lat": 5.4448012,
+  "lon": -4.0173103,
+  "tags": {
+    "amenity": "hospital",
+    "fid": "880",
+    "healthcare": "hospital",
+    "name": "Centre de santé urbain à base communautaire abobo BC",
+    "project:opencities_abidjan": "yes",
+    "source": "survey",
+    "source:date": "2021/03/09"
+  }
+},
+{
+  "type": "node",
+  "id": 8842492210,
+  "lat": 5.3523510,
+  "lon": -3.9750827,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Nouvelle Clinique Marie Eliana",
+    "project:opencities_abidjan": "yes",
+    "source": "survey",
+    "source:date": "23/02/2021"
+  }
+},
+{
+  "type": "node",
+  "id": 8846760396,
+  "lat": 5.3715359,
+  "lon": -3.9644343,
+  "tags": {
+    "amenity": "clinic",
+    "fid": "449",
+    "healthcare": "clinic",
+    "name": "Clinique médicale janick",
+    "project:opencities_abidjan": "yes",
+    "source": "survey",
+    "source:date": "2021/02/26"
+  }
+},
+{
+  "type": "node",
+  "id": 8846760711,
+  "lat": 5.3478929,
+  "lon": -3.9548997,
+  "tags": {
+    "amenity": "clinic",
+    "fid": "109",
+    "healthcare": "clinic",
+    "name": "Groupe médical de l'amitié",
+    "project:opencities_abidjan": "yes",
+    "source": "survey",
+    "source:date": "2021/02/25"
+  }
+},
+{
+  "type": "node",
+  "id": 8872464572,
+  "lat": 5.1351585,
+  "lon": -3.0242051,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hôpital général de Tiapoum"
+  }
+},
+{
+  "type": "node",
+  "id": 8879397818,
+  "lat": 5.4716067,
+  "lon": -3.2047871,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Clinique Médicale Source de Vie"
+  }
+},
+{
+  "type": "node",
+  "id": 8901538515,
+  "lat": 5.3838458,
+  "lon": -3.9783757,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Américaine d'Abidjan Sarl"
+  }
+},
+{
+  "type": "node",
+  "id": 8901553065,
+  "lat": 5.1353244,
+  "lon": -3.0243824,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "District Sanitaire de Tiapoum"
+  }
+},
+{
+  "type": "node",
+  "id": 8905011458,
+  "lat": 5.3314706,
+  "lon": -3.9358252,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centre de Sante n'badon",
+    "project:opencities_abidjan": "yes",
+    "source": "survey",
+    "source:date": "2021/02/24"
+  }
+},
+{
+  "type": "node",
+  "id": 8905249424,
+  "lat": 5.3311741,
+  "lon": -4.0093902,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centre de Santé des douanes",
+    "project:opencities_abidjan": "yes",
+    "source": "survey",
+    "source:date": "2021/02/24"
+  }
+},
+{
+  "type": "node",
+  "id": 8907729005,
+  "lat": 5.3848109,
+  "lon": -3.9849553,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Saint georges",
+    "project:opencities_abidjan": "yes",
+    "source": "survey",
+    "source:date": "2021/02/25"
+  }
+},
+{
+  "type": "node",
+  "id": 8957504957,
+  "lat": 7.4433262,
+  "lon": -5.2891140,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "District Sanitaire de Sakassou"
+  }
+},
+{
+  "type": "node",
+  "id": 8984427960,
+  "lat": 5.4062398,
+  "lon": -4.0074465,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Maternité Privée Espérance",
+    "project:opencities_abidjan": "yes",
+    "source": "survey",
+    "source:date": "2021/03/03"
+  }
+},
+{
+  "type": "node",
+  "id": 8993668707,
+  "lat": 9.2664824,
+  "lon": -2.9982620,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hôpital Général de Bouna"
+  }
+},
+{
+  "type": "node",
+  "id": 9007786413,
+  "lat": 6.9090219,
+  "lon": -4.5178056,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de Santé"
+  }
+},
+{
+  "type": "node",
+  "id": 9007796207,
+  "lat": 7.0633518,
+  "lon": -4.5023081,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "District Sanitaire de Bocanda"
+  }
+},
+{
+  "type": "node",
+  "id": 9007796652,
+  "lat": 6.6594531,
+  "lon": -4.7049939,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "District Sanitaire de Dimbokro"
+  }
+},
+{
+  "type": "node",
+  "id": 9054375317,
+  "lat": 5.2811287,
+  "lon": -3.9736937,
+  "tags": {
+    "addr:housenumber": "126",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique des arcades"
+  }
+},
+{
+  "type": "node",
+  "id": 9127764899,
+  "lat": 7.3428823,
+  "lon": -4.6759324,
+  "tags": {
+    "amenity": "hospital",
+    "fixme": "Verify location",
+    "healthcare": "hospital",
+    "name": "Hôpital Général"
+  }
+},
+{
+  "type": "node",
+  "id": 9134561994,
+  "lat": 5.2981316,
+  "lon": -4.0091128,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Hôtel Dieu"
+  }
+},
+{
+  "type": "node",
+  "id": 9134748259,
+  "lat": 6.7403369,
+  "lon": -3.5061576,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre Antituberculeux d'Abengourou"
+  }
+},
+{
+  "type": "node",
+  "id": 9134748260,
+  "lat": 6.7397636,
+  "lon": -3.5063221,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "District sanitaire d'Abengourou"
+  }
+},
+{
+  "type": "node",
+  "id": 9228809141,
+  "lat": 6.9824095,
+  "lon": -5.7525726,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Institu nationnal d'hygiène publique"
+  }
+},
+{
+  "type": "node",
+  "id": 9280294979,
+  "lat": 5.3075339,
+  "lon": -3.9940901,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Clinique Polymed"
+  }
+},
+{
+  "type": "node",
+  "id": 9280306368,
+  "lat": 5.3162153,
+  "lon": -3.9966557,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Polyclinique Avicenne"
+  }
+},
+{
+  "type": "node",
+  "id": 9407863783,
+  "lat": 6.1170399,
+  "lon": -5.9334230,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "PMI Garahio"
+  }
+},
+{
+  "type": "node",
+  "id": 9480626208,
+  "lat": 6.1230724,
+  "lon": -5.9349590,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centre anti tuberculeux (CAT)"
+  }
+},
+{
+  "type": "node",
+  "id": 9599260860,
+  "lat": 5.2136940,
+  "lon": -4.3291396,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Dispensaire Rural d'Avagou"
+  }
+},
+{
+  "type": "node",
+  "id": 9599291872,
+  "lat": 5.2069285,
+  "lon": -4.4068745,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hôpital Général de Jacqueville"
+  }
+},
+{
+  "type": "node",
+  "id": 9599305482,
+  "lat": 5.2194854,
+  "lon": -4.2726477,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 9732140793,
+  "lat": 7.7051544,
+  "lon": -5.0351737,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "grace divine"
+  }
+},
+{
+  "type": "node",
+  "id": 9905403140,
+  "lat": 5.3992389,
+  "lon": -3.9738242,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Sainte Henriette"
+  }
+},
+{
+  "type": "node",
+  "id": 9911095308,
+  "lat": 5.3636588,
+  "lon": -3.9267707,
+  "tags": {
+    "addr:street": "route d’abatta",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Mère des Anges"
+  }
+},
+{
+  "type": "node",
+  "id": 9956254912,
+  "lat": 7.7029968,
+  "lon": -5.0638287,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Maternité Bethesda"
+  }
+},
+{
+  "type": "node",
+  "id": 10042467976,
+  "lat": 6.9810072,
+  "lon": -5.7485123,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "CSU Privé des Sœurs Dominicaines de l’Anunciata"
+  }
+},
+{
+  "type": "node",
+  "id": 10109216863,
+  "lat": 6.5208532,
+  "lon": -6.7589732,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 10128937417,
+  "lat": 9.4912483,
+  "lon": -7.5644150,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hôpital des armées d'odienné"
+  }
+},
+{
+  "type": "node",
+  "id": 10151641617,
+  "lat": 5.9234240,
+  "lon": -4.2163019,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "INHP antenne régionale d'Agboville"
+  }
+},
+{
+  "type": "node",
+  "id": 10722536205,
+  "lat": 7.1204621,
+  "lon": -3.2028082,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "ONG fraternité"
+  }
+},
+{
+  "type": "node",
+  "id": 10735971305,
+  "lat": 5.3280423,
+  "lon": -4.0266821,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Formation sanitaire urbaine Edmond Basque du plateau"
+  }
+},
+{
+  "type": "node",
+  "id": 10738250905,
+  "lat": 5.4791169,
+  "lon": -4.1554018,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de santé d'akoupe ZEUDJI"
+  }
+},
+{
+  "type": "node",
+  "id": 10860939937,
+  "lat": 5.3794029,
+  "lon": -3.9312690,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centre médical Curantis",
+    "phone": "0788006257"
+  }
+},
+{
+  "type": "node",
+  "id": 10860995493,
+  "lat": 5.3635630,
+  "lon": -3.9266836,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique mère des anges"
+  }
+},
+{
+  "type": "node",
+  "id": 10991105268,
+  "lat": 9.5815354,
+  "lon": -5.3924019,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "District Sanitaire de Sinématiali"
+  }
+},
+{
+  "type": "node",
+  "id": 11009260588,
+  "lat": 9.5868299,
+  "lon": -5.3842841,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hôpital Général de Sinematiali"
+  }
+},
+{
+  "type": "node",
+  "id": 11050945908,
+  "lat": 5.3020081,
+  "lon": -3.9485427,
+  "tags": {
+    "addr:city": "Abidjan",
+    "addr:housenumber": "10 Bp 203 Abj 10",
+    "addr:postcode": "225",
+    "addr:street": "Rue I37",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "healthcare:speciality": "gynaecology;general;paediatrics;cardiology",
+    "name": "Centre Médical Tassala",
+    "operator": "Centre Médiocal Tassala",
+    "operator:type": "private",
+    "phone": "+225 27 21 53 77 54"
+  }
+},
+{
+  "type": "node",
+  "id": 11066587205,
+  "lat": 6.5638527,
+  "lon": -7.7727439,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centre de santé"
+  }
+},
+{
+  "type": "node",
+  "id": 11073198965,
+  "lat": 6.9258693,
+  "lon": -6.0535108,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 11121867820,
+  "lat": 9.4502207,
+  "lon": -5.6358683,
+  "tags": {
+    "amenity": "clinic",
+    "health_facility:type": "clinic",
+    "healthcare": "clinic",
+    "name": "Association Ivoirienne pour le Bien-Etre Familial",
+    "opening_hours": "Mo-Sa 07:30-16:30",
+    "operator:type": "ngo",
+    "short_name": "AIBF",
+    "source": "survey",
+    "source:date": "2023-08-04"
+  }
+},
+{
+  "type": "node",
+  "id": 11121867825,
+  "lat": 9.4520662,
+  "lon": -5.6323699,
+  "tags": {
+    "amenity": "clinic",
+    "health_facility:CI": "centre_de_santé_urbain",
+    "health_facility:type": "health_center",
+    "healthcare": "clinic",
+    "name": "Institut National d'Hygiène Publique",
+    "note": "Activités : consultation générale, petite chirurgie, vaccination, planning familial",
+    "operator:type": "community",
+    "short_name": "INHP",
+    "source": "survey",
+    "source:date": "2023-08-04"
+  }
+},
+{
+  "type": "node",
+  "id": 11133555936,
+  "lat": 6.2134790,
+  "lon": -7.4867333,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de Santé Urbain de ZAGNE"
+  }
+},
+{
+  "type": "node",
+  "id": 11134817497,
+  "lat": 6.5770523,
+  "lon": -8.4173601,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hôpital Général de Touleupleu"
+  }
+},
+{
+  "type": "node",
+  "id": 11135793127,
+  "lat": 6.5649101,
+  "lon": -8.3058431,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de santé urbain de PEHE"
+  }
+},
+{
+  "type": "node",
+  "id": 11140045825,
+  "lat": 9.4714712,
+  "lon": -5.6386887,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centre de Soins Privé le Grand Nord",
+    "opening_hours": "24/7",
+    "operator:type": "private",
+    "short_name": "LGN",
+    "source": "survey",
+    "source:date": "2023-08-04"
+  }
+},
+{
+  "type": "node",
+  "id": 11140045827,
+  "lat": 9.4464874,
+  "lon": -5.6425618,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Médicale Nour Anni",
+    "note": "Médicale général spécial",
+    "opening_hours": "24/7",
+    "operator:type": "private"
+  }
+},
+{
+  "type": "node",
+  "id": 11140045830,
+  "lat": 9.4768987,
+  "lon": -5.6295986,
+  "tags": {
+    "amenity": "clinic",
+    "fixme": "Position à vérifier",
+    "healthcare": "clinic",
+    "name": "Centre Nassara",
+    "opening_hours": "24/7",
+    "operator:type": "private",
+    "short_name": "CN",
+    "source": "survey",
+    "source:date": "2023-08-04"
+  }
+},
+{
+  "type": "node",
+  "id": 11140045832,
+  "lat": 9.4375259,
+  "lon": -5.6321669,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "healthcare:speciality": "psychiatry",
+    "name": "Centre Jubile Korhogo",
+    "operator:type": "private",
+    "short_name": "CJK",
+    "source": "survey",
+    "source:date": "2023-08-04"
+  }
+},
+{
+  "type": "node",
+  "id": 11140045835,
+  "lat": 9.4526178,
+  "lon": -5.6314534,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "healthcare:speciality": "pulmonology",
+    "name": "Centre Anti-Tuberculeux de Korhogo",
+    "opening_hours": "24/7",
+    "operator:type": "private",
+    "source": "survey",
+    "source:date": "2023-08-04"
+  }
+},
+{
+  "type": "node",
+  "id": 11140045836,
+  "lat": 9.4579384,
+  "lon": -5.6332397,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Béthanie",
+    "opening_hours": "24/7",
+    "operator:type": "private",
+    "source": "survey",
+    "source:date": "2023-08-04"
+  }
+},
+{
+  "type": "node",
+  "id": 11148959069,
+  "lat": 7.3890559,
+  "lon": -8.2624081,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de santé urbain de kouan houle"
+  }
+},
+{
+  "type": "node",
+  "id": 11152421317,
+  "lat": 7.2702637,
+  "lon": -7.7794207,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de santé urbain de sangouiné"
+  }
+},
+{
+  "type": "node",
+  "id": 11155792331,
+  "lat": 5.3892526,
+  "lon": -4.0057913,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Clinique medicale"
+  }
+},
+{
+  "type": "node",
+  "id": 11155843832,
+  "lat": 5.3799473,
+  "lon": -4.0077429,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre anti tuberculeux HMA"
+  }
+},
+{
+  "type": "node",
+  "id": 11169706947,
+  "lat": 7.6642970,
+  "lon": -7.6017686,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de santé rural"
+  }
+},
+{
+  "type": "node",
+  "id": 11169808757,
+  "lat": 7.3788619,
+  "lon": -5.5917772,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de santé rurale de Sran Bondossou",
+    "opening_hours": "Mo-Su 08:00-18:00"
+  }
+},
+{
+  "type": "node",
+  "id": 11169830120,
+  "lat": 7.3537635,
+  "lon": -5.5898407,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de santé rurale de Sran Belakro",
+    "opening_hours": "Mo-Su 08:00-16:00"
+  }
+},
+{
+  "type": "node",
+  "id": 11170277197,
+  "lat": 7.8440674,
+  "lon": -7.7595485,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Dispensaire sokourala"
+  }
+},
+{
+  "type": "node",
+  "id": 11193175154,
+  "lat": 7.2940874,
+  "lon": -7.4515357,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de santé urbain de nidrou"
+  }
+},
+{
+  "type": "node",
+  "id": 11193827457,
+  "lat": 6.7300868,
+  "lon": -3.5081807,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre Médical Elohim"
+  }
+},
+{
+  "type": "node",
+  "id": 11194602608,
+  "lat": 7.2902755,
+  "lon": -7.3846324,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de santé urbain de Totrodrou"
+  }
+},
+{
+  "type": "node",
+  "id": 11195703749,
+  "lat": 5.4326052,
+  "lon": -4.0261893,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Cité Medical La Roseraie"
+  }
+},
+{
+  "type": "node",
+  "id": 11195880524,
+  "lat": 5.3829786,
+  "lon": -3.9870121,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Clinique Médicale de la Colombe"
+  }
+},
+{
+  "type": "node",
+  "id": 11197546978,
+  "lat": 9.4349276,
+  "lon": -5.5766532,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Privée la Main de Dieu",
+    "operator:type": "private",
+    "source": "survey",
+    "source_date": "2023-09-09"
+  }
+},
+{
+  "type": "node",
+  "id": 11197546981,
+  "lat": 9.4797189,
+  "lon": -5.6356135,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centre de soins Ste Marthe",
+    "opening_hours": "24/7",
+    "operator:type": "private",
+    "source": "survey",
+    "source_date": "2023-09-09"
+  }
+},
+{
+  "type": "node",
+  "id": 11197546983,
+  "lat": 9.4813631,
+  "lon": -5.6009178,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Case de Santé",
+    "note": "Case de santé",
+    "operator:type": "private",
+    "source": "survey",
+    "source_date": "2023-09-08"
+  }
+},
+{
+  "type": "node",
+  "id": 11197546985,
+  "lat": 9.4454397,
+  "lon": -5.5953804,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "operator:type": "private",
+    "source": "survey",
+    "source_date": "2023-09-08"
+  }
+},
+{
+  "type": "node",
+  "id": 11197546988,
+  "lat": 9.4431709,
+  "lon": -5.6242973,
+  "tags": {
+    "amenity": "clinic",
+    "fixme": "Vérifier la position",
+    "healthcare": "clinic",
+    "name": "Centre de Soins Privé du 14",
+    "opening_hours": "24/7",
+    "operator:type": "private",
+    "source": "survey",
+    "source_date": "2023-09-08"
+  }
+},
+{
+  "type": "node",
+  "id": 11197546989,
+  "lat": 9.4462996,
+  "lon": -5.6297059,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Médicale des Savanes",
+    "operator:type": "private",
+    "source": "survey",
+    "source_date": "2023-09-08"
+  }
+},
+{
+  "type": "node",
+  "id": 11279387976,
+  "lat": 6.2442578,
+  "lon": -3.7937633,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centre de Santé"
+  }
+},
+{
+  "type": "node",
+  "id": 11381899400,
+  "lat": 5.2815020,
+  "lon": -3.5138884,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Dispensaire"
+  }
+},
+{
+  "type": "node",
+  "id": 11446004869,
+  "lat": 5.3869029,
+  "lon": -3.9270480,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "DJO 208"
+  }
+},
+{
+  "type": "node",
+  "id": 11507018469,
+  "lat": 7.7492266,
+  "lon": -7.6209868,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hôpital Général De Biankouma"
+  }
+},
+{
+  "type": "node",
+  "id": 11545588169,
+  "lat": 6.8923649,
+  "lon": -6.4487542,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Groupe médical haniel"
+  }
+},
+{
+  "type": "node",
+  "id": 11563886704,
+  "lat": 6.3517634,
+  "lon": -5.9422659,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centre de santé rural de Zebizekou"
+  }
+},
+{
+  "type": "node",
+  "id": 11587873170,
+  "lat": 5.3556282,
+  "lon": -3.9546542,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Groupe Médical de l'Amitié Riviera 3"
+  }
+},
+{
+  "type": "node",
+  "id": 11594216070,
+  "lat": 5.3154171,
+  "lon": -4.1004492,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "CSU COM NIANGON LOKOA"
+  }
+},
+{
+  "type": "node",
+  "id": 11594216169,
+  "lat": 5.3153317,
+  "lon": -4.1000519,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "CSU COM NIANGON LOKOA - DISPENSAIRE"
+  }
+},
+{
+  "type": "node",
+  "id": 11668592020,
+  "lat": 5.1108124,
+  "lon": -7.4165621,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de Santé de Mahio"
+  }
+},
+{
+  "type": "node",
+  "id": 11668592023,
+  "lat": 5.2762479,
+  "lon": -7.3135720,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de Santé de Youkou"
+  }
+},
+{
+  "type": "node",
+  "id": 11669067503,
+  "lat": 4.7145744,
+  "lon": -7.4693255,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de Santé Rural d'Olodio"
+  }
+},
+{
+  "type": "node",
+  "id": 11722108469,
+  "lat": 6.1313847,
+  "lon": -5.9412284,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique le samaritain"
+  }
+},
+{
+  "type": "node",
+  "id": 11766219680,
+  "lat": 7.7991764,
+  "lon": -3.1718171,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hôpital de tanda"
+  }
+},
+{
+  "type": "node",
+  "id": 11768630764,
+  "lat": 6.8360827,
+  "lon": -5.3372803,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de Santé Bonzi"
+  }
+},
+{
+  "type": "node",
+  "id": 11804257747,
+  "lat": 7.0557647,
+  "lon": -3.9639277,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de santé des armées"
+  }
+},
+{
+  "type": "node",
+  "id": 11853406570,
+  "lat": 7.9578045,
+  "lon": -6.6808984,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "CHU de Séguéla",
+    "name:en": "Côte d'Ivoire"
+  }
+},
+{
+  "type": "node",
+  "id": 11938949694,
+  "lat": 5.4248962,
+  "lon": -3.2666728,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de santé d'Adaou"
+  }
+},
+{
+  "type": "node",
+  "id": 11938950938,
+  "lat": 5.4102859,
+  "lon": -3.3508021,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de santé de Babadougou"
+  }
+},
+{
+  "type": "node",
+  "id": 11938960181,
+  "lat": 5.3938776,
+  "lon": -3.3971386,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de santé rural de N'Zikro"
+  }
+},
+{
+  "type": "node",
+  "id": 11979372069,
+  "lat": 6.9007883,
+  "lon": -6.4527501,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Groupe Médical Hanniel"
+  }
+},
+{
+  "type": "node",
+  "id": 12006442873,
+  "lat": 5.9302395,
+  "lon": -4.2157437,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 12083906564,
+  "lat": 6.3083339,
+  "lon": -5.9386864,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Dispensaire de Ouragahio"
+  }
+},
+{
+  "type": "node",
+  "id": 12112537541,
+  "lat": 9.4368712,
+  "lon": -5.6262041,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Mienmoh"
+  }
+},
+{
+  "type": "node",
+  "id": 12112957162,
+  "lat": 9.4466935,
+  "lon": -5.6305233,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centre médical du palais"
+  }
+},
+{
+  "type": "node",
+  "id": 12254013421,
+  "lat": 8.2975452,
+  "lon": -5.0561432,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic"
+  }
+},
+{
+  "type": "node",
+  "id": 12304459966,
+  "lat": 7.7732204,
+  "lon": -5.3927745,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centre de santé urbain (CSI-U) de Lolobo"
+  }
+},
+{
+  "type": "node",
+  "id": 12335357722,
+  "lat": 7.1757361,
+  "lon": -5.9276384,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centre de Santé"
+  }
+},
+{
+  "type": "node",
+  "id": 12335714690,
+  "lat": 9.5195130,
+  "lon": -6.1955674,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centre de Santé"
+  }
+},
+{
+  "type": "node",
+  "id": 12367478301,
+  "lat": 5.3728506,
+  "lon": -4.0000473,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Clinique Mère Marie"
+  }
+},
+{
+  "type": "node",
+  "id": 12372440809,
+  "lat": 5.3449234,
+  "lon": -4.0014310,
+  "tags": {
+    "alt_name": "Clinique de Cocody La Grâce",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique Médicale de Cocody"
+  }
+},
+{
+  "type": "node",
+  "id": 12472749301,
+  "lat": 6.3272377,
+  "lon": -3.4467669,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Hôpital"
+  }
+},
+{
+  "type": "node",
+  "id": 12473998903,
+  "lat": 6.4534713,
+  "lon": -3.3895982,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Centre de santé de Bokakokoré"
+  }
+},
+{
+  "type": "node",
+  "id": 12474416102,
+  "lat": 5.5243309,
+  "lon": -4.2884739,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Dispensaire de KOSSIHOUEN"
+  }
+},
+{
+  "type": "node",
+  "id": 12533642770,
+  "lat": 7.5071295,
+  "lon": -7.6693599,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centre de Santé Rural de Kiélé"
+  }
+},
+{
+  "type": "node",
+  "id": 12533656413,
+  "lat": 7.6405375,
+  "lon": -7.7326633,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic"
+  }
+},
+{
+  "type": "node",
+  "id": 12552437485,
+  "lat": 8.3955072,
+  "lon": -6.7631576,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Dépôt pharmaceutique de Brema"
+  }
+},
+{
+  "type": "node",
+  "id": 12552437486,
+  "lat": 7.7947512,
+  "lon": -6.4450083,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Dépôt pharmaceutique de Gbogolo"
+  }
+},
+{
+  "type": "node",
+  "id": 12706521066,
+  "lat": 9.5220808,
+  "lon": -6.4714047,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clinique médicale la grâce de Boundiali"
+  }
+},
+{
+  "type": "node",
+  "id": 12706541812,
+  "lat": 9.5221823,
+  "lon": -6.4949071,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "District Sanitaire de Boundiali"
+  }
+},
+{
+  "type": "node",
+  "id": 12775662447,
+  "lat": 9.4956770,
+  "lon": -7.5589614,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Grandes endemies"
+  }
+},
+{
+  "type": "node",
+  "id": 12795792735,
+  "lat": 9.5083858,
+  "lon": -7.5658015,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "PMI odienné"
+  }
+},
+{
+  "type": "node",
+  "id": 12994321980,
+  "lat": 5.3245257,
+  "lon": -4.1121002,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Clin"
+  }
+},
+{
+  "type": "node",
+  "id": 12994742546,
+  "lat": 5.3672212,
+  "lon": -3.9793566,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "PHARMACIE ST BERNARD"
+  }
+},
+{
+  "type": "node",
+  "id": 13119615710,
+  "lat": 9.6107421,
+  "lon": -3.6708652,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Hôpital de tehini"
+  }
+},
+{
+  "type": "node",
+  "id": 13159805201,
+  "lat": 6.7307178,
+  "lon": -3.4845702,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Dispensaire urbain"
+  }
+},
+{
+  "type": "node",
+  "id": 13208372320,
+  "lat": 7.2081000,
+  "lon": -7.6146100,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "centre accueil psychiatrique",
+    "website": "https://victorhouali.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 13238699701,
+  "lat": 5.3699535,
+  "lon": -3.9637916,
+  "tags": {
+    "addr:housenumber": "77",
+    "addr:street": "Rue Gori Marcelin",
+    "amenity": "clinic",
+    "name": "Clinique Osirix",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "node",
+  "id": 13456837310,
+  "lat": 7.8130039,
+  "lon": -6.0794836,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Centre de santé urbain Kongasso"
+  }
+},
+{
+  "type": "node",
+  "id": 13475416075,
+  "lat": 8.1806645,
+  "lon": -5.7187231,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Centre de santé urbain de Tieningboue"
+  }
+},
+{
+  "type": "node",
+  "id": 13481894557,
+  "lat": 8.8177523,
+  "lon": -6.7466091,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Centre de santé rural de Banandjè"
+  }
+},
+{
+  "type": "node",
+  "id": 13506773739,
+  "lat": 7.9823974,
+  "lon": -6.9294523,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Centre de santé urbain de SIFIE"
+  }
+},
+{
+  "type": "node",
+  "id": 13521129609,
+  "lat": 7.3917238,
+  "lon": -6.4776144,
+  "tags": {
+    "amenity": "hospital",
+    "name": "District sanitaire de vavoua"
+  }
+},
+{
+  "type": "node",
+  "id": 13531717229,
+  "lat": 6.1284908,
+  "lon": -5.9443354,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Les paracliniques des oliviers"
+  }
+},
+{
+  "type": "node",
+  "id": 13541429167,
+  "lat": 5.2950818,
+  "lon": -3.9789942,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "centre",
+    "level": "1",
+    "name": "Cabinet médical Le Bélier",
+    "operator": "Rodrigue VANIE BI TA",
+    "phone": "+225 27 21 2 62686"
+  }
+},
+{
+  "type": "node",
+  "id": 13593579591,
+  "lat": 5.2739022,
+  "lon": -3.9709229,
+  "tags": {
+    "amenity": "clinic",
+    "facebook": "https://www.facebook.com/CliniqueCarly/",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general;paediatrics;gynaecology",
+    "name": "Clinique médicale Carly",
+    "opening_hours": "24/7",
+    "phone": "+225 27 21 24 60 05"
+  }
+},
+{
+  "type": "node",
+  "id": 13720337377,
+  "lat": 5.3344319,
+  "lon": -4.0054022,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "ICG Institut Cœur de Grâce"
+  }
+}
+
+  ]
+}
