@@ -170,7 +170,7 @@
         }
 
         // 1. Load All Health Sites
-        fetch('ivory_coast_health_sites.json')
+        fetch('data/ivory_coast_health_sites.json')
             .then(res => res.json())
             .then(data => {
                 data.elements.forEach(site => {
@@ -187,7 +187,7 @@
             });
 
         // 2. Load At-Risk Health Sites
-        fetch('at_risk_health_sites.json')
+        fetch('data/at_risk_health_sites.json')
             .then(res => res.json())
             .then(data => {
                 data.elements.forEach(site => {
@@ -207,7 +207,7 @@
             });
 
         // 3. Load Flood Events
-        fetch('floodarchive.xlsx')
+        fetch('data/floodarchive.xlsx')
             .then(res => res.arrayBuffer())
             .then(buffer => {
                 const workbook = XLSX.read(buffer, { type: 'array' });

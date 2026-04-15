@@ -20,7 +20,7 @@ def haversine(lat1, lon1, lat2, lon2):
 
 # 1. Load flood data
 print("Reading flood data...")
-df_floods = pd.read_excel('floodarchive.xlsx')
+df_floods = pd.read_excel('data/floodarchive.xlsx')
 # Keep only Ivory Coast floods with valid coordinates
 ivory_coast_floods = df_floods[
     (df_floods['Country'].str.strip() == 'Ivory Coast') & 
@@ -30,7 +30,7 @@ ivory_coast_floods = df_floods[
 
 # 2. Load health sites
 print("Reading health sites...")
-with open('ivory_coast_health_sites.json', 'r') as f:
+with open('data/ivory_coast_health_sites.json', 'r') as f:
     health_data = json.load(f)
 
 at_risk_sites = []
@@ -66,9 +66,9 @@ for site in all_sites:
         at_risk_sites.append(site)
 
 # 4. Save results
-output_file = 'at_risk_health_sites.json'
+output_file = 'data/at_risk_health_sites.json'
 with open(output_file, 'w') as f:
     json.dump({'elements': at_risk_sites}, f, indent=2)
 
-print(f"Success! Identified {len(at_risk_sites)} health sites at risk (within 1km of a flood).")
+print(f"Success! Identified {len(at_risk_sites)} health sites at risk (within 5km of a flood).")
 print(f"Results saved to {output_file}")

@@ -78,7 +78,7 @@
         };
 
         // Fetch and process the local floodarchive.xlsx
-        fetch('floodarchive.xlsx')
+        fetch('data/floodarchive.xlsx')
             .then(response => response.arrayBuffer())
             .then(data => {
                 var workbook = XLSX.read(data, { type: 'array' });

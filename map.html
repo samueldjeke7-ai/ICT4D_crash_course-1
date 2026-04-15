@@ -83,7 +83,7 @@
             return Math.min(Math.max(fatalities / 10, 5), 50);
         }
 
-        fetch('floodarchive.xlsx')
+        fetch('data/floodarchive.xlsx')
             .then(res => res.arrayBuffer())
             .then(buffer => {
                 const workbook = XLSX.read(buffer, { type: 'array' });
