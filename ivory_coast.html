@@ -18,6 +18,11 @@
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
+        /* Style for the layer control */
+        .leaflet-control-layers {
+            font-size: 14px;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -25,30 +30,57 @@
     <div class="legend">
         <strong>Map Legend</strong><br>
         <span style="color: #ff8800;">●</span> Flood Event<br>
-        <span style="color: #e74c3c;">✚</span> At-Risk Health Site (< 5km)
+        <span style="color: #e74c3c;">✚</span> At-Risk Site (< 5km)<br>
+        <span style="color: #95a5a6;">✚</span> Safe Health Site
     </div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 
     <script>
-        // Zoom specifically into Ivory Coast / West Africa
-        const map = L.map('map').setView([5.3, -4.0], 10); // Center on Abidjan
+        // Set view to Abidjan/Ivory Coast
+        const map = L.map('map').setView([5.3, -4.0], 10);
 
         L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
             attribution: '© OpenStreetMap contributors'
         }).addTo(map);
 
-        // 1. Load At-Risk Health Sites
+        // Define Layer Groups
+        const floodLayer = L.layerGroup().addTo(map);
+        const allHealthLayer = L.layerGroup();
+        const atRiskHealthLayer = L.layerGroup().addTo(map);
+
+        // 1. Load All Health Sites
+        fetch('ivory_coast_health_sites.json')
+            .then(res => res.json())
+            .then(data => {
+                data.elements.forEach(site => {
+                    const icon = L.divIcon({
+                        html: '<div style="color: #95a5a6; font-size: 18px;">✚</div>',
+                        className: 'custom-div-icon',
+                        iconSize: [20, 20],
+                        iconAnchor: [10, 10]
+                    });
+
+                    L.marker([site.lat, site.lon], { icon: icon })
+                        .bindPopup(`
+                            <b>${site.tags.name || 'Unnamed Health Site'}</b><br>
+                            Type: ${site.tags.amenity}
+                        `)
+                        .addTo(allHealthLayer);
+                });
+            });
+
+        // 2. Load At-Risk Health Sites
         fetch('at_risk_health_sites.json')
             .then(res => res.json())
             .then(data => {
                 data.elements.forEach(site => {
                     const icon = L.divIcon({
-                        html: '<div style="color: #e74c3c; font-size: 20px; font-weight: bold;">✚</div>',
+                        html: '<div style="color: #e74c3c; font-size: 22px; font-weight: bold;">✚</div>',
                         className: 'custom-div-icon',
-                        iconSize: [20, 20],
-                        iconAnchor: [10, 10]
+                        iconSize: [24, 24],
+                        iconAnchor: [12, 12]
                     });
 
                     L.marker([site.lat, site.lon], { icon: icon })
@@ -59,11 +91,11 @@
                                 <b style="color: #e74c3c;">Risk:</b> Within ${site.risk_info.closest_flood_dist_km} km of a flood event
                             </div>
                         `)
-                        .addTo(map);
+                        .addTo(atRiskHealthLayer);
                 });
             });
 
-        // 2. Load Flood Events
+        // 3. Load Flood Events
         fetch('floodarchive.xlsx')
             .then(res => res.arrayBuffer())
             .then(buffer => {
@@ -73,13 +105,13 @@
                 data.forEach(row => {
                     if (row.Country && row.Country.trim() === 'Ivory Coast' && row.lat && row.long) {
                         L.circle([row.lat, row.long], {
-                            radius: 5000, // 5km radius to show the danger zone
+                            radius: 5000,
                             fillColor: "#ff8800", 
                             color: "#ff8800",
                             weight: 1,
                             opacity: 0.3,
                             fillOpacity: 0.2
-                        }).addTo(map);
+                        }).addTo(floodLayer);
 
                         L.circleMarker([row.lat, row.long], {
                             radius: 8,
@@ -90,13 +122,22 @@
                             fillOpacity: 0.9
                         }).bindPopup(`
                             <b>Flood Event</b><br>
-                            <b>Location:</b> ${row.Country}<br>
                             <b>Began:</b> ${row.Began}<br>
                             <b>Cause:</b> ${row.MainCause || 'N/A'}
-                        `).addTo(map);
+                        `).addTo(floodLayer);
                     }
                 });
             });
+
+        // Add Layer Control
+        const baseLayers = {};
+        const overlays = {
+            "<span style='color: #ff8800;'>Flood Danger Zones</span>": floodLayer,
+            "<span style='color: #e74c3c; font-weight: bold;'>At-Risk Sites (Only)</span>": atRiskHealthLayer,
+            "<span style='color: #95a5a6;'>All Health Sites</span>": allHealthLayer
+        };
+
+        L.control.layers(baseLayers, overlays, {collapsed: false}).addTo(map);
     </script>
 </body>
 </html>
